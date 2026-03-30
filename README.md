@@ -51,19 +51,50 @@ De selected tekst werkte wel, alleen dan logt hij alles, dus ik wil voor nu dat 
 - Welke browser gebruikt u? 
 
 - Hoe gebruikt u de screenreader? Hoe selecteerd u een onderdeel uit een stuk tekst
-
-
-#### Iteratie
-##### Wat ik meeneem uit de test:
+- Kan u tekst selecteren met een screenreader?
+- Wilt u annotaties bij woorden, zinnen of paragrafen maken?
 
 ### Voorbereiding weekly geek
+Geschreven door Vasilis van Gemert 
+- https://exclusive-design.vasilis.nl/
+-https://exclusive-design.vasilis.nl/flipping-things/ 
+1. Study situation: bestudeer de doelgroep 
+2. Ignore conventions: Niet elke convention werkt vooe iedere doelgroep
+Patterns we take for granted, like a navigation at the top of every page, make no sense to certain screen reader users.
+3. Priotitise identity: design with people
+or instance identity plays an important role as well. Identity is interesting. There’s brand identity, there’s the identity of the design team, but there’s also the identity of the people who use your website
+4. Add nonsense: hoe kan je een functionele design naar een next level brengen
+It says to consider the value of features and how they improve the experience for different users. It doesn’t seem to make any sense to not do this.
+Adding nonsense to the mix can help in coming up with completely new ideas.
+
+Why because we can
 
 ### Checkout
+Vandaag gedaan met Matthew. 
+
+#### Wat heb ik gedaan?
+Ik heb nagedacht over waar ik mee ging starten en heb daar een start aan gemaakt, en ben daarbij ook begonnen met een nog wat algemene functie schrijven, omdat ik nog op veel vragen een antwoord moet krijgen om goed verder te kunnen, dus ik maak nu een prototype op basis van aannames als eerste iteratie.
+
+#### Hoelang heeft dat geduurd?
+- 09:30 - 10:30 Uitleg van de opdracht
+- 10:30 - 12:30 Start gemaakt aan readme, vragen bedacht, javascript function geschreven.
+- 12:30 - 13:30 pauze 
+- 13:30 - 15:00 Verder werken en proberen toevoegen van een html article, kijken hoe het zit met de select en een toetsenbord.
+- 15:00 - 16:00 weekly geek voorbereiden
+- 16:00 checkout
+
+#### Wat ga je morgen doen?
+Ik heb geleerd dat er een select methode en een focus() is in javascript, dit kon handig zijn, maar het werkt niet zoals ik wilde.
+
+#### Wat ga je morgen doen?
+Verder kijken naar een andere mogelijkheid voor de select. Misschien proberen met een focus state op het element of er door javascript allemaal spannetjes eromheen te zetten kijken of dat werkt.
+- Kijken of ik de focus state kan fixen
+- testplan formuleren
 
 
+### Iteratie 1
 
-
-
+![Eerste visuele opzet](images/readme-images/30-3-opzet.png)
 
 
 
@@ -74,7 +105,7 @@ De selected tekst werkte wel, alleen dan logt hij alles, dus ik wil voor nu dat 
 #### Testplan
 ##### Voorbereidende vragen voor Roger 
 
-#### iteratie
+#### Iteratie
 ##### Wat ik meeneem uit de test:
 
 ### Weekly geek
