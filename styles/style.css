@@ -2,3 +2,17 @@
     padding: 0;
     margin: 0;
 }
+
+main {
+    display: grid;
+    justify-content: center;
+
+    article {
+        width: 50vw;
+    }
+}
+
+form {
+    position: sticky;
+    bottom: 0;
+}
