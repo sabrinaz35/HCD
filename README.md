@@ -54,6 +54,10 @@ De selected tekst werkte wel, alleen dan logt hij alles, dus ik wil voor nu dat 
 - Kan u tekst selecteren met een screenreader?
 - Wilt u annotaties bij woorden, zinnen of paragrafen maken?
 
+##### Wat wil ik dat hij nu test?
+- Ik wil kijken of hij iets in een stuk tekst kan selecteren, met de toetsenbord. 
+- Hoe hij uberhaupt met een screenreader werkt.
+
 ### Voorbereiding weekly geek
 Geschreven door Vasilis van Gemert 
 - https://exclusive-design.vasilis.nl/
@@ -83,7 +87,7 @@ Ik heb nagedacht over waar ik mee ging starten en heb daar een start aan gemaakt
 - 15:00 - 16:00 weekly geek voorbereiden
 - 16:00 checkout
 
-#### Wat ga je morgen doen?
+#### Wat heb ik geleerd?
 Ik heb geleerd dat er een select methode en een focus() is in javascript, dit kon handig zijn, maar het werkt niet zoals ik wilde.
 
 #### Wat ga je morgen doen?
@@ -92,15 +96,145 @@ Verder kijken naar een andere mogelijkheid voor de select. Misschien proberen me
 - testplan formuleren
 
 
-### Iteratie 1
-
+### Iteratie 1: 0-meting
+Ik heb op visueel vlak niet veel gedaan, ik ben gaan kijken naar de functionaliteit om te selecteren.
 ![Eerste visuele opzet](images/readme-images/30-3-opzet.png)
+
+Alleen het selecteren gaat alleen met de muis, ik heb onderzocht of het mogelijk is om met een toetsenbord te doen alleen dat lukt niet. Dus ik wil kijken in hoeverre Roger al blind is en of hij met een muis werkt/wil werken. En anders ga ik kijken of ik dit nog anders kan doen en het per zin met spans ga doen. 
+![Eerste visuele opzet](images/readme-images/30-3-select-tekst-2.png)
+Of er is een manier waarop ik het anders kan doen, maar dat moet ik even nog in gaan duiken. Maar daarvoor is het handig voor mij als ik antwoord krijg op de vragen die ik hiervoor heb beschreven.
+
 
 
 
 ## Week 1: Dinsdag 31 maart
-
 ### Proces
+Vandaag is de dag van de eerste test en ik wil eerst de situatie waarvoor ik iets moet maken beter begrijpen en begrijpen waar Roger meer behoefte aan heeft en wat al zijn mogelijkheden zijn.
+
+Omdat ik gister niet kon vinden of je met een keyboard iets kan selecteren ben ik vandaag alvast bezig geweest om de teksten die ik heb daar een span van te maken.
+![Code van de span](images/readme-images/31-3-new-split-in-span.png)
+
+Uiteindelijk heb ik het ook kunnen combineren met het eerder geschreven spraak bericht. En dat werkt, alleen werkt mijn focus state nog niet, ik wil namelijk dat als hij klaar is met voorlezen dat hij dan de focus zet op een eventuele input alleen dit werkt niet. Ik probeerde het eerst met een onend, alleen ik las dat dat niet werkt omdat het een async functie is.
+![Onend function](images/readme-images/31-3-onend-function.png)
+
+Dus daar moet ik iets anders op bedenken. 
+
+Ik ben vandaag bezig geweest met het maken van de functie om geselecteerde tekst nog een keer voor te lezen zodra je het selecteerd. Alleen toen ik het zelf ging testen met een screenreader en dan op enter klikte las hij het stuk nog een keer voor maar dan met een engels browser stem. Dat werkt niet helemaal lekker.
+
+*Note to self: Stem aanpassen in browser + een oplossing vinden dat hij op een ander moment praat.*
+
+*#### Study situation*
+Wie is Roger en waar heeft hij behoefte aan? 
+Hoe kan hij notities terug vinden. Aantekeningen maken bij het studeren. Moeite met aantekeningen terug te vinden bij de boeken.
+
+
+#### Testplan
+##### antwoorden van Roger 
+- Welke screenreader gebruikt hij?
+Ingebouwde op mobiel Iphone. Gewoon super nova, nvde nova op zijn laptop. Want hij heeft geen macbook.
+
+- Kan hij nog een beetje zien is hij volledig blind?
+Hij ziet wel kleuren, maar wordt steeds verder aangetast. Omdat de kegeltjes steeds verder weg gaan. Contrast en lichtgevoeligheid. Van licht naar donker en visa versa moeite. Hij keert alles om heeft zijn telefoon in darkmode staan.
+
+Hij ziet zogezegd als je je vuist voor je gezicht houdt.
+
+Het is een grote blur. 
+
+Wel een woord, maar niet een hele zin.
+
+- Waar liggen zijn interesses? Wat voor filosofische boeken leest hij?
+Filosofische boeken. Misschien heeft hij nog wat dingen.        
+
+- Via wat leest hij zijn boeken? 
+Luisterboeken gebruikt hij. Tot zich nemen met spraak. 
+Aantekeningen zoals word, maar dat werkt ook niet optimaal.
+
+dedicom loket waar hij zijn boeken koopt in edutekst
+
+Het is lastig om boeken in word te krijgen. Filosofische boeken zijn moeilijker te krijgen.
+
+- Is was hij wilt een extensie of moet het een aparte applicatie zijn? 
+een tool waar hij aantekeningen kan maken en terug kan vinden. Waar je eventueel aan 
+
+- Welke browser gebruikt u? Welk device?
+Beide onderweg veel op de telefoon, maar dan kan hij geen aantekeningen maken.  Maar is wel behoefte naar, maar hij weet niet hoe.
+
+Maar leren op de computer, om makkelijker aantekeningen te maken.
+Blind typen lukt ook wel voor 80%.
+
+- Hoe gebruikt u de screenreader? Hoe selecteerd u een onderdeel uit een stuk tekst?
+
+- Kan u tekst selecteren met een screenreader?
+
+- Wilt u annotaties bij woorden, zinnen of paragrafen maken?
+Hij maakt nu per bladzijde aantekeningen, maar hij is nog zoekende in wat voor hem het beste werkt.
+
+- Hoe maakt hij aantekeningen?
+Hij neemt het soms op, en maakt wel soms aantekeningen. Met word kan je aantekeningen maken, maar het terugvinden is lastig. Het moet handiger kunnen. 
+
+Voorkeur: whatsapp gebruikt hij vaak auditief, is wel fijn en heeft een voorkeur. En met stotteren wordt het wel iets lastigers. 
+Hij typt wel liever. Maar beide opties zijn interessant.
+
+- Wat wilt u niet zien?
+Dat het zegt dat het toegankelijk is, maar dat het niet is. Niet iedereen heeft skills op een hoog lever, net als braille.
+
+- Lastig vindt
+Wil nog liever iets? in word dan alleen maar een website. Kan wel voorlezen dat kan wel goed werken, maar op studie gebied, dan moet je kunnen kopieren en in een ander bestandje.
+
+Spraak kan soms ook wel storend zijn. 
+
+Plaatjes kunnen omzetten in tekst. 
+
+- Indeling van concepten?
+Liefst per boek aantekeningen kunnen maken.
+Nu per bladzijde, een ordening. Koppenstructuur wel fijn.
+
+##### Opmerking tijdens een aantal tests
+- Niet een tab om terug te gaan
+- Liefst inladen document
+- Grotere letters
+- Accent color is vervelend, maar helpt wel
+- Navigatie binnen de tekst moet beter.
+
+- Vooraf controls voorlezen, hij is het nog niet over uit welke zijn voorkeur heeft.
+- Hoe kan hij opmerkingen vinden. 
+- Zwart op geel is een prettige manier voor het contrast.
+
+### Weekly geek bespreken
+Gedaan met wooclap.
+
+### Checkout
+#### Wat heb ik gedaan?
+Zoals 
+        
+#### Hoelang heeft dat geduurd?
+- 09:30 - 10:00 weekly geek
+- 10:00 - 12:30 verder werken, functie geschreven voor de spannetjes
+- 12:30 - 14:00 pauze 
+- 14:00 -16:00 Gesprek met Roger.
+
+
+#### Wat heb ik geleerd?
+#### Wat ga je morgen doen?
+
+
+### Iteratie 2: Plannen na eerste gesprek
+
+
+#### Iteratie
+
+
+
+
+
+## Week 2: Maandag .. april
+### Proces
+Vandaag is de dag van de
+
+*#### Study situation*
+Wie is Roger en waar heeft hij behoefte aan? 
+
+
 
 #### Testplan
 ##### Voorbereidende vragen voor Roger 
@@ -108,9 +242,49 @@ Verder kijken naar een andere mogelijkheid voor de select. Misschien proberen me
 #### Iteratie
 ##### Wat ik meeneem uit de test:
 
-### Weekly geek
+### Weekly geek bespreken
 
 ### Checkout
+#### Wat heb ik gedaan?
+#### Hoelang heeft dat geduurd?
+#### Wat heb ik geleerd?
+#### Wat ga je morgen doen?
+
+
+### Iteratie 2: Wat ik nu heb
+
+
+
+
+
+
+
+
+## Week 2: Dinsdag ... april
+### Proces
+Vandaag is de dag van de
+
+*#### Study situation*
+Wie is Roger en waar heeft hij behoefte aan? 
+
+
+
+#### Testplan
+##### Voorbereidende vragen voor Roger 
+
+#### Iteratie
+##### Wat ik meeneem uit de test:
+
+### Weekly geek bespreken
+
+### Checkout
+#### Wat heb ik gedaan?
+#### Hoelang heeft dat geduurd?
+#### Wat heb ik geleerd?
+#### Wat ga je morgen doen?
+
+
+### Iteratie 2: Na eerste gesprek
 
 
 ## Bronnen
@@ -126,3 +300,21 @@ https://chatgpt.com/share/69ca4ec3-b6b8-8333-b600-b28db00df488
 - https://coreui.io/answers/how-to-detect-enter-key-in-javascript/
 - https://developer.mozilla.org/en-US/docs/Web/API/Document/selectionchange_event 
 - https://developer.mozilla.org/en-US/docs/Web/API/Window/getSelection 
+
+Dat hij het geselecteerde voorleest:
+- https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance 
+- https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/end_event
+
+Het opsplitsen van zinnen met span: 
+ - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim
+ - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match
+
+/**
+ * Hulp bron: chatgpt
+ * Prompt: ik wil eigenlijk van de tekst wat in mijn html staat per zin een span maken, en zodra de focus op de span is en er op enter geklikt wordt dat hij dat dan ziet als een selection
+ * Link: https://chatgpt.com/share/69cb8f85-0de8-8327-801a-41aea10343b1
+ */
+
+ Check wat is geselecteerd met de tag van een span die eraan gegeven is:
+ - https://developer.mozilla.org/en-US/docs/Web/API/Element/tagName 
+
