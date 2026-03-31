@@ -4,8 +4,9 @@
 }
 
 :root {
-    --background-color: #F8FF00;
+    --background-color: rgb(255, 255, 152);
     --text-color: #000 ;
+    --wit-kleur: #fff;
 }
 
 body {
@@ -21,6 +22,7 @@ main {
     display: grid;
     justify-content: center;
     grid-template-columns: 2fr 1fr;
+    gap: 1.5rem;
 
     article {
         grid-column-start: 1;
@@ -32,13 +34,15 @@ main {
     }
 }
 
+/* Invoerveld */
 form { 
     position: absolute;
     bottom: 0;
     display: flex;
     flex-direction: column;
     width: 60vw;
-    padding: 1rem;
+    place-self: center;
+    padding: 2rem;
     margin: 1rem;
     border: 1px solid var(--text-color);
     border-radius: 5px;
@@ -47,13 +51,30 @@ form {
         display: inline-flex;
         flex-direction: column;
         padding: .5rem 0;
+
+        input {
+            padding: .2rem;
+        }
     }
 
     button {
-        background-color: #000;
-        color: #fff;
+        background-color: var(--text-color);
+        color:var(--wit-kleur);
         border-radius: 5px;
         padding: .5rem;
     }
+}
+
+span:focus {
+    background-color: var(--text-color);
+    color: var(--wit-kleur);
+}
+
+/* Styling annotaties */
+.newAnnotatie {
+    border: 1px solid var(--text-color);
+    background-color: var(--wit-kleur);
+    border-radius: 5px;
+    padding: 1rem;
 }
 

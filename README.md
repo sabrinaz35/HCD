@@ -241,7 +241,9 @@ Op basis van de iteratie ga ik verder met maken.
 
 ## Week 2: Maandag .. april
 ### Proces
-Vandaag is de dag van de
+De maandag is een vrije dag, maar ik ben na afgelopen dinsdag nog bezig geweest.
+
+Nu werkt mijn focus() ineens wel. Hoe ik heb geen idee, maar hij doet het nu. Het kan liggen omdat ik de functie uit een andere functie heb gehaald, maar geen idee.
 
 *#### Study situation*
 Wie is Roger en waar heeft hij behoefte aan? 
