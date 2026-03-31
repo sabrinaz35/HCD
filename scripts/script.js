@@ -60,3 +60,7 @@ function annotateText(){
         document.body.insertAdjacentHTML('beforeend', annotationHTML)
     }
 }
+
+const addAnnotationButton = document.querySelector('button')
+
+addAnnotationButton,addEventListener('onclick', annotateText)

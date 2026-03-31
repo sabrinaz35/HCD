@@ -205,21 +205,33 @@ Gedaan met wooclap.
 
 ### Checkout
 #### Wat heb ik gedaan?
-Zoals 
-        
+Ik heb een function geschreven voor de span, zodat je kan tabben door de verschillende zinnen heen en dan kan hij deze voorlezen.
+
 #### Hoelang heeft dat geduurd?
 - 09:30 - 10:00 weekly geek
 - 10:00 - 12:30 verder werken, functie geschreven voor de spannetjes
 - 12:30 - 14:00 pauze 
 - 14:00 -16:00 Gesprek met Roger.
 
-
 #### Wat heb ik geleerd?
+Ik ben weer een stapje verder gekomen met javascript, met het begrijpen en verschillende functionaliteiten toegepast zoals match() en trim()
+
 #### Wat ga je morgen doen?
+Op basis van de iteratie ga ik verder met maken. 
+- Achtergrond kleuren en kleuren aanpassen
+- Als je op Enter klikt dat je dan kan typen
+- Bestand upload maken
+- Notitie maken werkend
+- Zoeken in notities
 
 
 ### Iteratie 2: Plannen na eerste gesprek
-
+[]Achtergrond kleuren en kleuren aanpassen
+[]Als je op Enter klikt dat je dan kan typen
+[]Bestand upload maken
+[]Notitie maken werkend
+[]Zoeken in notities
+[]Localhost fixen zodat het opslaat on refresh
 
 #### Iteratie
 

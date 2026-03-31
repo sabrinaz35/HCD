@@ -3,19 +3,47 @@
     margin: 0;
 }
 
-main {
-    display: grid;
-    justify-content: center;
+:root {
+    --background-color: #F8FF00;
+    --text-color: #000 ;
+}
+
+body {
+    background-color: var(--background-color);
     padding: 1rem;
 
-    article {
-        width: 80vw;
+    p, h1, h2 {
+        color: var(--text-color);
     }
 }
 
-form {
+main {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 2fr 1fr;
+
+    article {
+        grid-column-start: 1;
+    }
+
+    section {
+
+        grid-column-start: 2;
+    }
+}
+
+form { 
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    border: 1px solid var(--text-color);
+     border-radius: 5px;
+
+    button {
+        background-color: #000;
+        color: #F8FF00;
+        border-radius: 5px;
+        padding: .5rem;
+    }
 }
 

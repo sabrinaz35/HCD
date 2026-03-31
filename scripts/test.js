@@ -56,3 +56,25 @@ tekst.forEach(function(p){
         }
     });
 })
+
+
+
+
+// MARK: Toevoegen annotatie
+//  document.body.insertAdjacentHTML('beforeend', annotationHTML)
+function annotateText(){
+
+    let annotationHTML = 
+    ` <article class="${selectedText}">
+        <h2>${inputAnnotatieValueTitle.value}</h2>
+        <p>${inputAnnotatieValue.value}</p>
+    </article>`
+
+    if(selectedText && inputAnnotatieValue.value == true && inputAnnotatieValueTitle.value == true){
+        document.body.section.p.insertAdjacentHTML('beforeend', annotationHTML)
+    }
+}
+
+const addAnnotationButton = document.querySelector('.buttonAddAnnotation')
+
+addAnnotationButton,addEventListener('onclick', annotateText);
