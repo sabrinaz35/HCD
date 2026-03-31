@@ -1,4 +1,5 @@
 
+// MARK: Span van tekst
 /**
  * Hulp bron: chatgpt
  * Prompt: ik wil eigenlijk van de tekst wat in mijn html staat per zin een span maken, en zodra de focus op de span is en er op enter geklikt wordt dat hij dat dan ziet als een selection
@@ -64,17 +65,22 @@ tekst.forEach(function(p){
 //  document.body.insertAdjacentHTML('beforeend', annotationHTML)
 function annotateText(){
 
-    let annotationHTML = 
-    ` <article class="${selectedText}">
-        <h2>${inputAnnotatieValueTitle.value}</h2>
-        <p>${inputAnnotatieValue.value}</p>
-    </article>`
+    let titleAnnotation = inputAnnotatieValueTitle.value
+    let annotation = inputAnnotatieValue.value
 
-    if(selectedText && inputAnnotatieValue.value == true && inputAnnotatieValueTitle.value == true){
-        document.body.section.p.insertAdjacentHTML('beforeend', annotationHTML)
+    if(titleAnnotation !== "" && annotation !== ""){
+
+        let annotationHTML = 
+        ` <article>
+            <h2>${titleAnnotation}</h2>
+            <p>${annotation}</p>
+        </article>`
+        document.querySelector('section').insertAdjacentHTML('beforeend', annotationHTML);
+    } else {
+        console.log('fout bij invullen')
     }
 }
 
 const addAnnotationButton = document.querySelector('.buttonAddAnnotation')
 
-addAnnotationButton,addEventListener('onclick', annotateText);
+addAnnotationButton.addEventListener('click', annotateText);
