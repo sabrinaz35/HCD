@@ -226,17 +226,24 @@ Op basis van de iteratie ga ik verder met maken.
 
 
 ### Iteratie 2: Plannen na eerste gesprek
-[]Achtergrond kleuren en kleuren aanpassen
-[]Als je op Enter klikt dat je dan kan typen
+[x]Achtergrond kleuren en kleuren aanpassen
+[x]Als je op Enter klikt dat je dan kan typen
+[x]Notitie maken werkend
 []Bestand upload maken
-[]Notitie maken werkend
 []Zoeken in notities
 []Localhost fixen zodat het opslaat on refresh
+[]Verwijderen notitie fixen
+[]Light dark mode + lettergrootte aanpassen maken
+[]Notitie linken aan de zinnen
 
 #### Iteratie
 
+Op basis van het eerste gesprek, ben ik daarna nog even doorgegaan en ziet het er als volgt uit.
+![Kleuren toegevoegd](images/readme-images/31-3-iteratie-na-eerste-gesprek.png)
 
+Zoals je hierboven ziet zijn de kleuren aangepast op basis van wat Roger heeft verteld tijdens het gesprek.
 
+![Annotatie plus accent color](images/readme-images/31-3-annotatie+accentcolor.png)
 
 
 ## Week 2: Maandag .. april
@@ -245,13 +252,17 @@ De maandag is een vrije dag, maar ik ben na afgelopen dinsdag nog bezig geweest.
 
 Nu werkt mijn focus() ineens wel. Hoe ik heb geen idee, maar hij doet het nu. Het kan liggen omdat ik de functie uit een andere functie heb gehaald, maar geen idee.
 
-*#### Study situation*
-Wie is Roger en waar heeft hij behoefte aan? 
+*#### Verwerkte iteraties*
+Op basis van de test, heb ik het design aangepast, Roger gaf aan dat hij zwart op geel fijner vindt om naar te kijken, dus heb ik het design zwart op geel gemaakt.
+
+
+
 
 
 
 #### Testplan
-##### Voorbereidende vragen voor Roger 
+##### Voorbereidende vragen voor Roger op basis van de vorige iteratie
+
 
 #### Iteratie
 ##### Wat ik meeneem uit de test:
