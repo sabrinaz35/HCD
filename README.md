@@ -261,6 +261,9 @@ Aria labels is interessant om naar te kijken, om de ervaring van de screenreader
 Wat wil je Roger voorleggen voor de volgende keer? 
 
 ### Wekelijkse reflectie
+Het was als ik er zo op terug kijk toch allemaal wat lastiger dan gedacht, omdat je niet zo goed wist waar ik moest beginnen. Bovendien had ik ook niet echt een idee in hoeverre Roger blind was, dus ik ging er in eerste instantie vanuit dat hij zo goed als helemaal niks zag en ben begonnen met de screenreader en daar iets uit kunnen selecteren. Dat is uiteindelijk gelukt, in eerste instantie had ik het kunnen selecteren met een muis, maar niet in gedachte gehouden dat het niet mogelijk was om met een keyboard een deel te kunnen selecteren.
+
+Dus dat was weer even een ohja moment. Uiteindleijk na het eerste gesprek was het toch wel fijn om Roger ontmoet te hebben want nu weet ik ook wat hij zou willen en waar zijn behoeftes een beetje liggen en kan ik verder gaan met mijn design voor hem. Tussendoor ontdek ik toch dat ik nog wat informatie mis, maar deze vragen sla ik op en zal ik bij het volgende moment aan hem stellen.
 
 ## Week 2: Maandag .. april
 ### Proces
