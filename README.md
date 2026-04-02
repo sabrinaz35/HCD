@@ -245,6 +245,22 @@ Zoals je hierboven ziet zijn de kleuren aangepast op basis van wat Roger heeft v
 
 ![Annotatie plus accent color](images/readme-images/31-3-annotatie+accentcolor.png)
 
+### Wekelijkse gesprek
+- Cool dat hij het voorleest, maar leg de focus op andere dingen. Roger heeft namelijk de manier van een voiceover geleerd. 
+
+add nonsense 
+
+Focus op meer informatie krijgen van Roger, dus ik ga ook wat meer vragen ook stellen aan hem. 
+Zoals: 
+- Welk lettertype werkt het beste voor jou?
+- Wat vindt u van deze gele kleur op de achtergrond?
+- Welke shortcuts kent hij/heeft hij op zijn laptop?
+
+Aria labels is interessant om naar te kijken, om de ervaring van de screenreader beter te maken voor hem. Om zijn frustatie af te nemen.
+
+Wat wil je Roger voorleggen voor de volgende keer? 
+
+### Wekelijkse reflectie
 
 ## Week 2: Maandag .. april
 ### Proces
