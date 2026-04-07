@@ -316,8 +316,82 @@ Vragen aan Roger:
 
 Daarnaast wil ik de focus van mijn test leggen om te kijken wat hij van de automatische focus vind naar de annotatie. Kijken of dit lekker werkt of niet.
 
-#### Iteratie
+#### Uitkomsten uit de test en die van andere
+Hij komt meteen al binnen met dat hij zijn mobiel op iets wil aansluiten, dus dat wordt nog een verbeterpunt, want ik heb het gemaakt voor Word op de laptop.
+
+NEVER MIND NO STRESS - het was voor hoe de boeken werken.
+
+Door zijn telefoon swiped hij door de stukken tekst heen. 
+- Pinch en draai om de instellingen te krijgen op de telefoon.
+- doubble tab om te selecteren en te openen van bestand. 
+
+MAkkelijker maken en navigeren met een tool op de telefoon een boek kan lezen en aantekeningen maken of op de ipad in ieder geval voor een ipad.
+- hij gebruikt een draadloos toetsenbordje om te typen
+- Via bladzijdes weten, een opmerking kan plaatsen en het dan kan bundelen om het terug te kunnen vinden. 
+- Darkmodus
+- Nog geen goede structuur voor het terug vinden van de notities
+- Laptop het liefst zo min mogelijk gebruiken. 
+
+*Melvin:*
+- Goeie contrast
+- Hij gebruikt meerdere schermlezers om niet afhankelijk te zijn van eentje.
+- annotaties binnen of buiten het scherm? --> duidelijk dat er wel een annotatie is en ook wel zien. 
+- Geen specifieke lettertype, standaard is gewoon goed --> dikgedrukt - maar de focus ook om het non visuele.
+
+- liever een oplossing waarbij er niet gelezen wordt. 
+- Meer op spraak om de snelheid te verhogen.
+- Voorlezen binnen een bestand werkt als een tierelier
+
+
+*Jelle:*
+- Waar kan je zien dat het geselecteerd is? 
+- tabben werkt goed voor hem, esc werkt ook goed om terug te gaan.
+- En een spatie om te selecteren
+
+
+*Mijn test:*
+- Kleur is iets te licht -- het donkere vond hij wel prettig om te zien.
+- Hij kon er nog moeilijk doorheen komen en kwam snapte ook niet goed dat hij al iets kon invullen en door kon gaan om op te slaan.
+- Blauw werkt ook goed voor hem
+- Hij zou graag tussen alinea's en zinnen willen kunnen kiezen.
+- Hij gaf aan dat een laptop ook wel prima is
+
+Het werkte eigenlijk helemaal niet, omdat hij niet goed wist waar hij naartoe moest. Hij sloeg het begin tekstje ook over.
+Dus er is nog werk aan de winkel.
+
+*Jeppe:*
+- Hij vindt groep voorlezen vervelend.
+- A gaat snel bij het voorlezen. Anders had hij het sneller door gehad.
+- Prima
+- Hij blijft wat langer hangen tussen hoe te navigeren.
+
+*Naoufal:*
+- Optie om meerdere stemmen te installeren
+- Alinea's sprak hem wel aan.
+
+*Ocean:*
+- De toetscombinaties zijn wat lastiger
+- niet iets vooraf annoteren, dat brengt verwarring bij hem om te zien of er iets al geannoteerd is.
+- Tekst is leidend, annotatie is bijzaak. 
+- een bolletje voor een zin dat kan hij zien en 
+- Liever iets bewerken wat er al is, binnen een annotatie en niet nog een nieuwe annotatie erbij dezelfde zin
+- Pad om te vinden is pagina's zijn toch wel bladzijdes of hoofdstukken
+
+*Teun:*
+- Hij stuikelt nog wel over het lezen 
+- Tab doet hij wel
+- Meteen door naar de volgende zin in plaats van weer terug naar de zin waar je je annotatie al hebt gemaakt.
+- Een tekentje voor de zin, om aan te geven dat er een annotatie bij zit.
+
+*Kelly:*
+- Fijn om ook te kunnen typen als je met spraak bezig bent.
+
 ##### Wat ik meeneem uit de test:
+- Highlighten van de geannoteerde tekst
+- Per bladzijdes -> Kunnen tabben tussen alinea's en vervolgens daarbinnen de zinnen kunnen voorlezen.
+
+- Bij de volgende test benoemen wat de controls zijn
+
 
 ### Weekly geek bespreken
 Weer via wooclap.
