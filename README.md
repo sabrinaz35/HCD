@@ -275,13 +275,45 @@ Nu werkt mijn focus() ineens wel. Hoe ik heb geen idee, maar hij doet het nu. He
 Op basis van de test, heb ik het design aangepast, Roger gaf aan dat hij zwart op geel fijner vindt om naar te kijken, dus heb ik het design zwart op geel gemaakt.
 
 
-
-
-
-
 #### Testplan
 ##### Voorbereidende vragen voor Roger op basis van de vorige iteratie
+- Welk lettertype werkt het beste voor jou?
+- Wat vindt u van deze gele kleur op de achtergrond?
+- Welke shortcuts kent hij/heeft hij op zijn laptop?
 
+
+### Weekly geek Voorbereiden
+Geschreven door Leonie Watson, 8 augustus 2025.
+
+Heel interessant over hoe zij de problemen binnen een product omschrijving aankaart. Want zo heb ik er nooit naar gekeken. 
+
+AI integreren is heel handig, maar blijft dat wel? Kan chat wel voor  de gebruiker op een fijne manier iets omschrijven of zijn er nog steeds punten waar ze de mist in gaan.
+
+### Checkout
+N.V.T
+
+
+
+## Week 2: Dinsdag 7 april
+### Proces
+Vandaag heb ik al mijn tweede test.
+
+Ik ga op basis van de feedback van Leonie, de speech die ik heb geschreven in javascript helaas weghalen, ik was er wel trots op alleen het is niet handig want de screenreader leest het toch al voor.
+
+![Verschillende lettertype bij de tekst](images/readme-images/7-4-test-lettertype.png)
+
+Tijdens de test wil ik testen welk lettertype hij ook het meest prettig vindt om naar te kijken, zodat het voor hem ook fijner kan werken en dat hij minder snel vermoeid wordt. Dus ik heb voor het testen een aantal opties neergezet, zodat hij kan kijken welke hij het beste vindt en misschien heeft hij wel een ander die voor hem prettig werkt, ik laat dit volledig open.
+
+#### Testplan
+Ik wil Roger door mijn site laten tabben en kijken hoe hij het ervaart, daarbij wil ik vragen wat hij van de kleuren vind en de lettertype en of hij eventueel een voorkeur daarin heeft.
+
+
+Vragen aan Roger:
+- Welke lettertype gebruikt u doorgaands?
+- Wat vindt u van het kleurgebruik? 
+- Hoe is de opzet van de pagina? wat vindt hij van de annotities optie binnen het scherm blijft?
+
+Daarnaast wil ik de focus van mijn test leggen om te kijken wat hij van de automatische focus vind naar de annotatie. Kijken of dit lekker werkt of niet.
 
 #### Iteratie
 ##### Wat ik meeneem uit de test:
@@ -295,7 +327,7 @@ Op basis van de test, heb ik het design aangepast, Roger gaf aan dat hij zwart o
 #### Wat ga je morgen doen?
 
 
-### Iteratie 2: Wat ik nu heb
+### Iteratie 2: Na eerste gesprek
 
 
 
@@ -304,7 +336,7 @@ Op basis van de test, heb ik het design aangepast, Roger gaf aan dat hij zwart o
 
 
 
-## Week 2: Dinsdag ... april
+## Week 3: Maandag ... april
 ### Proces
 Vandaag is de dag van de
 
@@ -329,6 +361,7 @@ Wie is Roger en waar heeft hij behoefte aan?
 
 
 ### Iteratie 2: Na eerste gesprek
+
 
 
 ## Bronnen

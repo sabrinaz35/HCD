@@ -34,7 +34,7 @@ tekst.forEach(function(p){
 
 })
 
-
+let selectedContentSpan = "";
 
 document.addEventListener('keydown', function(event){
     //https://developer.mozilla.org/en-US/docs/Web/API/Document/hasFocus
@@ -44,23 +44,13 @@ document.addEventListener('keydown', function(event){
 
         // https://developer.mozilla.org/en-US/docs/Web/API/Element/tagName
         if(individualSpan.tagName === "SPAN") {
-        
+            selectedContentSpan = individualSpan.textContent;
+            inputAnnotatieValueTitle.focus(); 
 
-            const contentSpan = individualSpan.textContent;
-            console.log(contentSpan) 
+            let selectedTekstToAnnotationHTML = 
+                ` <p tabindex=0>${selectedContentSpan}</p>`
 
-
-            // inputAnnotatieValueTitle.focus(); 
-            // https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance
-            const speakThis = new SpeechSynthesisUtterance('Geselecteerd:'+ contentSpan);
-
-            https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/end_event
-            speakThis.onend = function(){
-                inputAnnotatieValueTitle.focus(); 
-                console.log('speech klaar')
-            };
-
-        speechSynthesis.speak(speakThis);
+            document.querySelector('form').insertAdjacentHTML('afterbegin', selectedTekstToAnnotationHTML);
 
             
         
@@ -70,7 +60,10 @@ document.addEventListener('keydown', function(event){
 });
 
 
+
 // MARK: Toevoegen annotatie
+
+
 function annotateText(){
 
     let titleAnnotation = inputAnnotatieValueTitle.value
@@ -79,10 +72,12 @@ function annotateText(){
     if(titleAnnotation !== "" && annotation !== ""){
 
         let annotationHTML = 
-        ` <article class="newAnnotatie">
+        ` <article tabindex=0 class="newAnnotatie">
+            <p tabindex=0>${selectedContentSpan}</p>
             <h2 tabindex="0">${titleAnnotation}</h2>
             <p tabindex="0">${annotation}</p>
             <button type="button" class="deleteButton">Verwijder annotatie</button>
+            <button class="EditAnnotatie" type="button">Edit uw annotatie</button>
         </article>`
         document.querySelector('section').insertAdjacentHTML('beforeend', annotationHTML);
 
