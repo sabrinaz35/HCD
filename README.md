@@ -304,9 +304,10 @@ Ik ga op basis van de feedback van Leonie, de speech die ik heb geschreven in ja
 
 Tijdens de test wil ik testen welk lettertype hij ook het meest prettig vindt om naar te kijken, zodat het voor hem ook fijner kan werken en dat hij minder snel vermoeid wordt. Dus ik heb voor het testen een aantal opties neergezet, zodat hij kan kijken welke hij het beste vindt en misschien heeft hij wel een ander die voor hem prettig werkt, ik laat dit volledig open.
 
+Daarnaast heb ik de flow met de screenreader getest en met het tabben en dat werkt naar mijn idee ok. Maar ook dit wil ik laten testen door Roger en ik wil nu gewoon feedback krijgen op wat ik heb.
+
 #### Testplan
 Ik wil Roger door mijn site laten tabben en kijken hoe hij het ervaart, daarbij wil ik vragen wat hij van de kleuren vind en de lettertype en of hij eventueel een voorkeur daarin heeft.
-
 
 Vragen aan Roger:
 - Welke lettertype gebruikt u doorgaands?
@@ -319,11 +320,23 @@ Daarnaast wil ik de focus van mijn test leggen om te kijken wat hij van de autom
 ##### Wat ik meeneem uit de test:
 
 ### Weekly geek bespreken
+Weer via wooclap.
 
 ### Checkout
 #### Wat heb ik gedaan?
+- ik heb de flow getest en met een screenreader bekeken.
+
 #### Hoelang heeft dat geduurd?
+- 09:30 - 10:15 weerkly geek
+- 10:15 - 12:00 getest en in groffe lijnen aangepast voor de test
+- 12:00 - 13:00 pauze
+- 13:00 - 14:00 
+- 14:00 - 15:00 Test met Roger
+- 15:00 - ....
+
 #### Wat heb ik geleerd?
+Ik heb geleerd dat AI handig kan zijn bij het beschrijven van producten voor de screenreader.
+
 #### Wat ga je morgen doen?
 
 
