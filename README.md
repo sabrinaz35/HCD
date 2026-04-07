@@ -389,6 +389,7 @@ Dus er is nog werk aan de winkel.
 ##### Wat ik meeneem uit de test:
 - Highlighten van de geannoteerde tekst
 - Per bladzijdes -> Kunnen tabben tussen alinea's en vervolgens daarbinnen de zinnen kunnen voorlezen.
+- Bij het punt van de enter was hij meteen in het vakje, daar had ik de focus state op gezet alleen dit was een totale flop, dit werkte niet goed, dus ik ga even kijken hoe ik dit nu wel beter kan doen.
 
 - Bij de volgende test benoemen wat de controls zijn
 
@@ -399,22 +400,29 @@ Weer via wooclap.
 ### Checkout
 #### Wat heb ik gedaan?
 - ik heb de flow getest en met een screenreader bekeken.
+- de test gedaan met Roger en op basis van wat hij vertelde of wat ik observeerde alvast nagedacht wat ik nu verder aan ga doen.
 
 #### Hoelang heeft dat geduurd?
 - 09:30 - 10:15 weerkly geek
 - 10:15 - 12:00 getest en in groffe lijnen aangepast voor de test
 - 12:00 - 13:00 pauze
 - 13:00 - 14:00 
-- 14:00 - 15:00 Test met Roger
-- 15:00 - ....
+- 14:00 - 16:00 Test met Roger
+- 16:00 -  readme bijgewerkt en test hierin gezet etc.
 
 #### Wat heb ik geleerd?
 Ik heb geleerd dat AI handig kan zijn bij het beschrijven van producten voor de screenreader.
 
+Het is toch lastiger ontwerpen voor een gebruiker die de screenreader gebruikt, ik dacht dat ik nu wel heel dichtbij kwam, maar het was eigenlijk helemaal niet goed omdat hij op een gegeven moment de weg kwijt was.
+
 #### Wat ga je morgen doen?
+- De kleuren aanpassen naar donkerder, hij gaf aan dat hij dat wat ik nu had toch te licht vond.
+- Dat de annotatie waar die zit een andere kleur of icon krijgt.
+- Bij het punt van de enter was hij meteen in het vakje, daar had ik de focus state op gezet alleen dit was een totale flop, dit werkte niet goed, dus ik ga even kijken hoe ik dit nu wel beter kan doen.
 
 
 ### Iteratie 2: Na eerste gesprek
+Wat ik Roger ook heb laten testen
 
 
 
