@@ -429,7 +429,46 @@ Deze week ging qua maken wel goed, alleen tijdens het testen kwamen er weer ding
 
 Ik vind het nog wel lastig dat ik iets moet maken voor iemand die de sneltoetsen van de screenreader best lastig vindt en ik merkte bij andere test dat zij vooraf de shortcuts hadden uitgelegd en dat hij het daarna veel beter begreep, dus dat ga ik voor de volgende test ook doen. 
 
+- focussen op de flow en dan manier waarop de screenreader praat.
+- Donker modus
+- Lijstjes en structuur creëeren om tussen hoofdstukken heen zou kunnen gaan.
+- kijken naar role attribute 
 
+idee:
+- Per hoofdstuk een list item en binnen list item kunnen tabben door de zinnen en dan enter klikken om een notitie te maken.
+
+Het gesprek aan het einde van de week heeft mij weer op een nieuw idee gebracht wat ik gewoon wil proberen. 
+Leonie had het over het maken van een list item, en toen dacht ik aan een inhoudsopgave, wat als je via daar kan tabben tussen de hoofdstukken en dat hij dan het aantal annotaties voorleest en dat je op enter kan klikken op binnen dat hoofdstuk te komen.
+
+
+
+## Week 3: Maandag 13 april
+### Proces
+
+
+![Mijn opzet van mijn html](images/readme-images/10-4-opzet-html.png)
+
+*#### Study situation*
+Wie is Roger en waar heeft hij behoefte aan? 
+
+
+
+#### Testplan
+##### Voorbereidende vragen voor Roger 
+
+#### Iteratie
+##### Wat ik meeneem uit de test:
+
+### Weekly geek bespreken
+
+### Checkout
+#### Wat heb ik gedaan?
+#### Hoelang heeft dat geduurd?
+#### Wat heb ik geleerd?
+#### Wat ga je morgen doen?
+
+
+### Iteratie 2: Na eerste gesprek
 
 
 
@@ -460,8 +499,6 @@ Wie is Roger en waar heeft hij behoefte aan?
 
 
 ### Iteratie 2: Na eerste gesprek
-
-
 
 ## Bronnen
 ### content

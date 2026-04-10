@@ -4,8 +4,9 @@
 }
 
 :root {
-    --background-color: rgb(255, 255, 152);
-    --text-color: #000 ;
+    --background-color: #000;
+    --text-color: rgb(224, 224, 131);
+    --text-color-2: #000;
     --wit-kleur: #fff;
 }
 
@@ -40,15 +41,6 @@ main {
 
             article {
                 grid-column-start: 1;
-
-
-                &:nth-of-type(2) p, h2 {
-                    font-family:'Times New Roman', Times, serif;
-                }
-
-                &:nth-of-type(3) p, h2 {
-                    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-                }
             }
 
             section {
@@ -75,14 +67,19 @@ form {
     width: 30%;
     padding: 1.5rem;
     margin: 1rem;
-    border: 1px solid var(--text-color);
+    border: 1px solid var(--text-color-2);
     background-color: rgb(113, 231, 244);
     border-radius: 5px;
+
+    h3 {
+        color: var(--text-color-2);
+    }
 
     label {
         display: inline-flex;
         flex-direction: column;
         padding: .5rem 0;
+        color: var(--text-color-2);
 
         input {
             padding: .2rem;
@@ -94,7 +91,7 @@ form {
     }
 
     button {
-        background-color: var(--text-color);
+        background-color: var(--text-color-2);
         color:var(--wit-kleur);
         border-radius: 5px;
         padding: .5rem;
