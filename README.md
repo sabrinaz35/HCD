@@ -300,11 +300,14 @@ Vandaag heb ik al mijn tweede test.
 
 Ik ga op basis van de feedback van Leonie, de speech die ik heb geschreven in javascript helaas weghalen, ik was er wel trots op alleen het is niet handig want de screenreader leest het toch al voor.
 
+### Iteratie 2: Na eerste gesprek
+
 ![Verschillende lettertype bij de tekst](images/readme-images/7-4-test-lettertype.png)
 
 Tijdens de test wil ik testen welk lettertype hij ook het meest prettig vindt om naar te kijken, zodat het voor hem ook fijner kan werken en dat hij minder snel vermoeid wordt. Dus ik heb voor het testen een aantal opties neergezet, zodat hij kan kijken welke hij het beste vindt en misschien heeft hij wel een ander die voor hem prettig werkt, ik laat dit volledig open.
 
 Daarnaast heb ik de flow met de screenreader getest en met het tabben en dat werkt naar mijn idee ok. Maar ook dit wil ik laten testen door Roger en ik wil nu gewoon feedback krijgen op wat ik heb.
+
 
 #### Testplan
 Ik wil Roger door mijn site laten tabben en kijken hoe hij het ervaart, daarbij wil ik vragen wat hij van de kleuren vind en de lettertype en of hij eventueel een voorkeur daarin heeft.
@@ -421,9 +424,10 @@ Het is toch lastiger ontwerpen voor een gebruiker die de screenreader gebruikt, 
 - Bij het punt van de enter was hij meteen in het vakje, daar had ik de focus state op gezet alleen dit was een totale flop, dit werkte niet goed, dus ik ga even kijken hoe ik dit nu wel beter kan doen.
 
 
-### Iteratie 2: Na eerste gesprek
-Wat ik Roger ook heb laten testen
+### Weekly Checkout
+Deze week ging qua maken wel goed, alleen tijdens het testen kwamen er weer dingen aan het licht waar ik overheen had gezien of niet aan had gedacht. Dus dat moet ik voor volgende week aanpassen en een nieuwe manier voor bedenken. 
 
+Ik vind het nog wel lastig dat ik iets moet maken voor iemand die de sneltoetsen van de screenreader best lastig vindt en ik merkte bij andere test dat zij vooraf de shortcuts hadden uitgelegd en dat hij het daarna veel beter begreep, dus dat ga ik voor de volgende test ook doen. 
 
 
 
