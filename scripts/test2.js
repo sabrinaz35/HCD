@@ -104,3 +104,44 @@ const addAnnotationButton = document.querySelector('.buttonAddAnnotation')
 
 addAnnotationButton.addEventListener('click', annotateText);
 
+// MARK: tabben en extra hierarchie tussen de elementen
+
+// Alle articles selecteren en in een array stoppen 
+const articles = Array.from(document.querySelectorAll('article'));
+var currentArticleNumber = 0;
+
+
+// https://chatgpt.com/c/69db3d3c-8374-8328-8cb8-414fd9e76e34
+// Werkt nog niet helemaal
+document.addEventListener('keydown', function(event) {
+    const activeArticle = document.activeElement;
+    // https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code
+    if (!active || active.tagName !== 'ARTICLE' ){
+        // open dan de link
+        return;
+    }
+
+    // Haalt de nummer op van de geselecteerde index
+    var indexArticle = articles.indexOf(active)
+
+    // verder 
+    if(event.key === 'ArrowDown'){
+        // zprgt voor geen scroll
+        event.preventDefault()
+        const nextIndex = indexArticle + 1;
+
+        if(nextIndex < articles.length){
+            articles[nextIndex].focus()
+        }
+    }
+
+// terug
+    if(event.key === 'ArrowUp'){
+        event.preventDefault()
+        const prevIndex = indexArticle - 1;
+
+        if(prevIndex >= 0){
+            articles[prevIndex].focus()
+        }
+    }
+});

@@ -7,7 +7,7 @@
     --background-color: #000;
     --text-color: rgb(224, 224, 131);
     --text-color-2: #000;
-    --wit-kleur: #fff;
+    --wit-kleur: #000;
 }
 
 
@@ -92,7 +92,7 @@ form {
 
     button {
         background-color: var(--text-color-2);
-        color:var(--wit-kleur);
+        color: #fff;
         border-radius: 5px;
         padding: .5rem;
     }

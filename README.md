@@ -444,14 +444,14 @@ Leonie had het over het maken van een list item, en toen dacht ik aan een inhoud
 
 ## Week 3: Maandag 13 april
 ### Proces
+Vandaag ga ik mijn idee uitwerken op basis van de feedback die ik heb gekregen vrijdag tijdens de feedbacksessie. Ik heb daardoor ook een nieuw idee bedacht en wil de ervaring zo duidelijk en prettig mogelijk maken voor Roger.
 
-
+Dit was mijn eerste opzet voor mijn html:
 ![Mijn opzet van mijn html](images/readme-images/10-4-opzet-html.png)
 
-*#### Study situation*
-Wie is Roger en waar heeft hij behoefte aan? 
+Uiteindelijk heb ik nog een inhoudsopgave gemaakt, waarin Roger kan horen wanneer er bij welke hoofdstuk hoeveel annotaties zijn. Hij kan de hoofdstukken openen door de link te openen via enter of de spatiebalk, uit de test van andere bleek namelijk dat hij spatiebalk ook prettig vond om te gebruiken. En zo hou ik mijn volgende ideeën ook consistent.
 
-
+Ik heb nu bij de aticles ook een tabindex toegevoegd, zodar hij ook eerst de articles langs kan gaan. Alleen moet ik nog een function schrijven, waarbij hij alleen de articles langs tabt en dan zodra hij op spatie klikt de articles binnenin langs kan gaan. Maar wel dat hij de articles bij het eerste keer tabben ook voorleest.
 
 #### Testplan
 ##### Voorbereidende vragen voor Roger 
@@ -505,6 +505,8 @@ Wie is Roger en waar heeft hij behoefte aan?
 Voor test 1:
 -  Als placeholder een stuk uit artikel: https://nos.nl/artikel/2603972-australische-moeder-en-dochter-ontdekken-koraalkolonie-een-weiland-van-koraal
 
+- https://www.filosofie.nl/filosofen/plato/
+
 
 ### Javascript
 #### Function geselecteerde tekst
@@ -521,6 +523,9 @@ Dat hij het geselecteerde voorleest:
 Het opsplitsen van zinnen met span: 
  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim
  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match
+
+ Keypress:
+ - https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code 
 
 /**
  * Hulp bron: chatgpt
