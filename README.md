@@ -453,6 +453,58 @@ Uiteindelijk heb ik nog een inhoudsopgave gemaakt, waarin Roger kan horen wannee
 
 Ik heb nu bij de aticles ook een tabindex toegevoegd, zodar hij ook eerst de articles langs kan gaan. Alleen moet ik nog een function schrijven, waarbij hij alleen de articles langs tabt en dan zodra hij op spatie klikt de articles binnenin langs kan gaan. Maar wel dat hij de articles bij het eerste keer tabben ook voorleest.
 
+Ik heb voor elkaar gekregen dat je eerst een lijst hebt met hoofdstukken en ik heb bij de alinea's de instructies tijdens dat hij bij de alinea zit gedaan, want ik merkte tijdens mijn vorige test dat hij bij de instructies in het begin meteen voorbij ging.
+
+Zie hieronder hoe mijn html er nu uitziet: 
+![Aria labels toegvoegd](images/readme-images/13-4-aria-label.png)
+
+Misschien dat ik de articles moet veranderen naar een lijst, want dan heb je de structuur van een lijst.
+
+#### Testplan
+Ik moet bij Roger duidelijk zijn met dat de mannelijke stem van mijn voiceover voor de structuur is en de belgische meer voor de content is en dat hij daar meer naar moet luisteren.
+
+Ook ga ik vooraf uitleggen aan hem wat welke toets doet, zodat hij het al een keer gehoord heeft.
+
+##### Voorbereidende vragen voor Roger 
+- Wat vindt hij van de hulp stukken tussen de teksten?
+- Wat vindt hij van de flow?
+- Werken de knoppen goed voor hem?
+
+
+### Weekly geek voorbereiden
+geen deze week
+
+### Checkout
+#### Wat heb ik gedaan?
+Ik heb de flow aangepast met aria labels zodat hij voorleest wat zijn mogelijkheden zijn, ik wil dit met hem gaan testen.
+Ook heb ik de verwijder button gefixt en heb ik de achtergrond aangepat naar een darkmode.
+
+#### Hoelang heeft dat geduurd?
+09:30 - 13:00 gewerkt aan de opdracht
+13:00 - 14:00 naar huis gaan
+
+
+#### Wat heb ik geleerd?
+Ik heb geleerd dat een aria-label ervoor zorgt dat de tekst ook niet meer wordt voorgelezen met de screenreader. Dat wist ik namelijk niet. Ook heb je in javascript een contain() waarmee je kan checken of een element iets bevat en dat je een preventDefault() kan toevoegen zodat hij de default keyboard dingen niet doet en in plaats daarvan je eigen ingestelde/gemaakte function uitvoerd.
+
+#### Wat ga je morgen doen?
+- De articles vervangen voor list items. 
+- De edit button fixen. 
+- Testen met Roger
+- Feedback verwerken.
+
+
+
+
+
+
+## Week 3: Dinsdag 14 april
+### Proces
+Vandaag is de dag van de
+
+
+
+
 #### Testplan
 ##### Voorbereidende vragen voor Roger 
 
@@ -474,7 +526,9 @@ Ik heb nu bij de aticles ook een tabindex toegevoegd, zodar hij ook eerst de art
 
 
 
-## Week 3: Maandag ... april
+
+
+## Week 3: Dinsdag 14 april
 ### Proces
 Vandaag is de dag van de
 
@@ -499,6 +553,10 @@ Wie is Roger en waar heeft hij behoefte aan?
 
 
 ### Iteratie 2: Na eerste gesprek
+
+
+
+
 
 ## Bronnen
 ### content
@@ -527,11 +585,19 @@ Het opsplitsen van zinnen met span:
  Keypress:
  - https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code 
 
+ Checks:
+ - https://developer.mozilla.org/en-US/docs/Web/API/Node/contains 
+
 /**
  * Hulp bron: chatgpt
  * Prompt: ik wil eigenlijk van de tekst wat in mijn html staat per zin een span maken, en zodra de focus op de span is en er op enter geklikt wordt dat hij dat dan ziet als een selection
  * Link: https://chatgpt.com/share/69cb8f85-0de8-8327-801a-41aea10343b1
  */
+
+// Bron: Chatgpt
+// Voor optimaliseren van de function want hij werkte niet 
+// https://chatgpt.com/c/69dc97d6-7508-8327-b69b-c037bc1d5c19
+// Promt: De scroll werkt nu niet meer, maar de focus werkt nu ook niet en ik heb bij elke article een tabindex
 
  Check wat is geselecteerd met de tag van een span die eraan gegeven is:
  - https://developer.mozilla.org/en-US/docs/Web/API/Element/tagName 

@@ -9,26 +9,23 @@
 <body>
     <main>
         <h1 tabindex="0">Hoofdstuk 1</h1>
-        <p>Hoe te gebruiken: Om een annotatie te maken klik op enter na het beluisteren van de zin. De focus ligt dan meteen op het inputveld van de titel van de annotatie.</p>
+        <!-- <p>Hoe te gebruiken: Om een annotatie te maken klik op enter na het beluisteren van de zin. De focus ligt dan meteen op het inputveld van de titel van de annotatie.</p> -->
         <div>
-            <article tabindex="0">
+            <article aria-label="Alinea 1 van de 3: Plato en Socrates, druk op tab om door deze alinea heen te gaan of gebruik pijltje om hoog of omlaag om te wisselen van alinea" tabindex="0">
                 <h2 tabindex="0">Plato en Socrates</h2>
                 <!-- Als placeholder een stuk uit artikel: https://www.filosofie.nl/filosofen/plato/ -->
-                <p>Plato wordt geboren in een aristocratische familie tijdens de Gouden Eeuw van Athene. Hij is voorbestemd tot een politieke carrière, maar besluit onder invloed van Socrates zijn leven te wijden aan de filosofie. Socrates is een wijsgeer die veel rondhangt op het marktplein van Athene, continu vragen afvurend op voorbijgangers. Met die ‘socratische methode’ trekt hij veel volgelingen aan. Maar naast volgers maakt Socrates ook vijanden. Socrates wordt tot de dood veroordeeld door het bestuur van de stad Athene en hij maakt een einde aan zijn leven door een gifbeker leeg te drinken.
+                <p aria-label="Druk op tab om door de zinnen heen te gaan, druk vervolgens op enter om een annotatie te maken " tabindex="0">Plato wordt geboren in een aristocratische familie tijdens de Gouden Eeuw van Athene. Hij is voorbestemd tot een politieke carrière, maar besluit onder invloed van Socrates zijn leven te wijden aan de filosofie. Socrates is een wijsgeer die veel rondhangt op het marktplein van Athene, continu vragen afvurend op voorbijgangers. Met die ‘socratische methode’ trekt hij veel volgelingen aan. Maar naast volgers maakt Socrates ook vijanden. Socrates wordt tot de dood veroordeeld door het bestuur van de stad Athene en hij maakt een einde aan zijn leven door een gifbeker leeg te drinken.
                 </p>
             </article>
-            <!-- <section>
-                <h2 tabindex="0">Uw annotaties van hoofdstuk 1</h2>
-            </section> -->
 
             <!-- Test articles voor het lettertype -->
-            <article tabindex="0">
+            <article aria-label="Alinea 2 van de 3: Ideeënleer, druk op tab om door deze alinea heen te gaan of gebruik pijltje om hoog of omlaag om te wisselen van alinea" tabindex="0">
                 <h2 tabindex="0">Ideeënleer</h2>
                 <!-- Als placeholder een stuk uit artikel: https://www.filosofie.nl/filosofen/plato/ -->
                 <p>Een paar van de dialogen waarin Socrates opduikt zijn de Phaedrus en de Phaedo, waarin Plato voor het eerst zijn ideeënleer beschrijft: in een metafysische, alleen voor het denken toegankelijke wereld, bestaan oervormen van de concrete, in de alledaagse werkelijkheid waar te nemen dingen. Dat verklaart waarom dingen herkenbaar zijn en blijven, maar tegelijkertijd toch voortdurend veranderen. Zo blijft een paard te herkennen als paard, ook als het slechts drie poten heeft, zwart of wit is, of gaandeweg ouder wordt – de essentie van het paard blijft bestaan.
                 </p>
             </article>
-            <article tabindex="0">
+            <article aria-label="Alinea 3 van de 3: Allegorie van de grot,druk op tab om door deze alinea heen te gaan of gebruik pijltje om hoog of omlaag om te wisselen van alinea" tabindex="0">
                 <h2 tabindex="0">Allegorie van de grot</h2>
                 <!-- Als placeholder een stuk uit artikel: https://www.filosofie.nl/filosofen/plato/ -->
                 <p>In de allegorie van de grot van Plato illustreert hij de ideeënleer door ons te vergelijken met gevangenen in een grot. De gevangenen zien schaduwen op de muur van de grot, die zij beschouwen als de echte werkelijkheid. De filosoof is de gevangene die voor het eerst voet zet buiten de grot en de echte wereld waarneemt. Vervolgens keert deze terug naar de grot en probeert zijn medegevangenen te overtuigen van het feit dat zij zich bedienen van schijnkennis. Dat wordt hem door zijn grotgenoten echter niet in dank afgenomen, vertelt Plato.
@@ -39,24 +36,24 @@
             </section>
         </div>
 
-        <form action=".">
-            <h3>Schrijf hier jouw annotatie</h3>
+        <form  action=".">
+            <h3 tabindex="0">Schrijf hier jouw annotatie</h3>
             <label class="annotatieValueTitle">
                 Titel van uw annotatie
-                <input type="text" value="">
+                <input aria-label="U bevindt zich op invoerveld 1 van de 2, type uw titel in en druk op tab" type="text" value="">
             </label>
             <label class="annotatieValue">
                 Vul hier uw annotatie in
-                <input type="text" value="">
+                <input aria-label="U bevindt zich op invoerveld 2 van de 2, type uw titel in en druk op tab" type="text" value="">
             </label>
-            <button class="buttonAddAnnotation" type="button">Voeg annotatie toe</button>
+            <button aria-label="Druk op enter om de annotatie op te slaan" class="buttonAddAnnotation" type="button">Voeg annotatie toe</button>
         </form>
     </main>
     <footer>
         <nav>
             <ul>
-                <li><a href="/index.html">Terug naar inhoudsopgave</a></li>
-                <li><a href="/">Ga door naar volgend hoofdstuk</a></li>
+                <li><a aria-label="Klik op deze button om terug te gaan naar de hoofdstukken" href="pages/inhoud.html">Terug naar inhoudsopgave</a></li>
+                <!-- <li><a href="/">Ga door naar volgend hoofdstuk</a></li> -->
             </ul>
         </nav>
     </footer>
