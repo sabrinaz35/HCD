@@ -81,8 +81,16 @@ document.addEventListener('keydown', function(event){
                 p.remove();
             }
 
+            // De focus weer terug zetten op de zin
             if(lastContentSpan) {
                 lastContentSpan.focus()
+            }
+
+            // Als er nog geen annotatie is dan moet het niet gemarkeerd worden
+            if(!annotation) {
+                if(lastContentSpan){
+                    lastContentSpan.classList.remove("annotatie-teken");
+                }
             }
         }
     }
@@ -123,7 +131,7 @@ function annotateText(){
             if(annotation) {
                 annotation.remove()
                 
-
+                // Markering verwijderen als de annotatie ook verwijdert wordt.
                 if(lastContentSpan){
                     lastContentSpan.classList.remove("annotatie-teken");
                 }
@@ -180,5 +188,37 @@ document.addEventListener('keydown', function(event) {
         if(prevIndex >= 0){
             articles[prevIndex].focus()
         }
+    }
+});
+
+
+
+
+// MARK: van links naar recht tussen annotatie en tekst switch
+// Werk nof niet
+
+document.addEventListener('keydown', function(event) {
+    const activeArticle = document.activeElement;
+    // https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code
+    const sectionAnnotatie = document.querySelector('div section');
+    const sectionText = document.querySelector('div ol')
+
+    if (!activeArticle || activeArticle.tagName !== 'LI' ){
+        // open dan de link
+        return;
+    }
+
+    if(event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+        // zprgt voor geen scroll
+        event.preventDefault()
+    }
+
+    if(event.key === 'ArrowRight'){
+        sectionAnnotatie.focus()
+    }
+
+// terug
+    if(event.key === 'ArrowLeft'){
+        sectionText.focus()
     }
 });
