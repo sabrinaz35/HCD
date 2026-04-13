@@ -460,10 +460,25 @@ Zie hieronder hoe mijn html er nu uitziet:
 
 Misschien dat ik de articles moet veranderen naar een lijst, want dan heb je de structuur van een lijst.
 
+Ik heb het aangepast naar een list item en de tabindex binnen de container van de list-items gezet alleen dan leest de stem het heel raar op.
+![list items in plaats van een article](images/readme-images/13-4-list-aangemaakt.png)
+
+Maar zodra ik het in de list item zette pakte hij het wel goed, maar leest hij het ook nog eens raar voor.
+Dat lag simpelweg aan de tabindex die ik nog had meegegeven.
+
+Daarnaast heb ik ook nog een markering gegeven aan de tekst, zodat Roger kan zien waar hij een annotatie heeft gemaakt.
+![](images/readme-images/13-4-tovoegen-gemarkeerde-teks.png)
+
 #### Testplan
 Ik moet bij Roger duidelijk zijn met dat de mannelijke stem van mijn voiceover voor de structuur is en de belgische meer voor de content is en dat hij daar meer naar moet luisteren.
 
 Ook ga ik vooraf uitleggen aan hem wat welke toets doet, zodat hij het al een keer gehoord heeft.
+
+tab = van boven naar beneden door alle elementen
+pijl omhoog en omlaag = door de alinea's heen wisselen
+enter = annotatie maken
+esc = is terug van de form naar de geselecteerde tekst
+
 
 ##### Voorbereidende vragen voor Roger 
 - Wat vindt hij van de hulp stukken tussen de teksten?
@@ -478,20 +493,22 @@ geen deze week
 #### Wat heb ik gedaan?
 Ik heb de flow aangepast met aria labels zodat hij voorleest wat zijn mogelijkheden zijn, ik wil dit met hem gaan testen.
 Ook heb ik de verwijder button gefixt en heb ik de achtergrond aangepat naar een darkmode.
+Ook heb ik een markering toegevoegd zodra hij iets geselecteerd heeft. En heb ik de articles aangepast naar een list item zoals ik had besproken met Leonie, zij zei dat het een betere oplossing zou zijn en de aria-label dan beter zou werken en dat doet het inderdaad.
 
 #### Hoelang heeft dat geduurd?
-09:30 - 13:00 gewerkt aan de opdracht
-13:00 - 14:00 naar huis gaan
+- 09:30 - 13:00 gewerkt aan de opdracht
+- 13:00 - 14:00 naar huis gaan
+- 14:00 - 16:00 markering gefixt + article > li
 
 
 #### Wat heb ik geleerd?
 Ik heb geleerd dat een aria-label ervoor zorgt dat de tekst ook niet meer wordt voorgelezen met de screenreader. Dat wist ik namelijk niet. Ook heb je in javascript een contain() waarmee je kan checken of een element iets bevat en dat je een preventDefault() kan toevoegen zodat hij de default keyboard dingen niet doet en in plaats daarvan je eigen ingestelde/gemaakte function uitvoerd.
 
 #### Wat ga je morgen doen?
-- De articles vervangen voor list items. 
 - De edit button fixen. 
 - Testen met Roger
 - Feedback verwerken.
+- Zodra je door de annotaties heen tabt dat als je dan op enter klikt dat je dan meteen terug gaat naar het stukje tekst?
 
 
 

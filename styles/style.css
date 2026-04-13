@@ -48,7 +48,7 @@ main {
             margin-top: 3rem;
 
 
-            article {
+            ol {
                 grid-column-start: 1;
             }
 
@@ -144,5 +144,10 @@ span:focus {
         padding: .5rem;
         font-size: 1rem;
     }
+}
+
+span.annotatie-teken {
+    background-color: rgb(113, 231, 244, .8);
+    color: var(--text-color-2);
 }
 

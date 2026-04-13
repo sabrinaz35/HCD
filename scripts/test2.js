@@ -56,6 +56,10 @@ document.addEventListener('keydown', function(event){
             let selectedTekstToAnnotationHTML = 
                 ` <p aria-label="Wilt u een annotatie maken bij de tekst? Nee klik op escape ja, ga met de tab verder: ${selectedContentSpan}" tabindex=0>${selectedContentSpan}</p>`
 
+            if(lastContentSpan){
+                lastContentSpan.classList.add("annotatie-teken");
+            }
+
             document.querySelector('form').insertAdjacentHTML('afterbegin', selectedTekstToAnnotationHTML);
 
             const newP = document.querySelector(' form p')
@@ -118,6 +122,11 @@ function annotateText(){
             const annotation = this.closest('.newAnnotatie')
             if(annotation) {
                 annotation.remove()
+                
+
+                if(lastContentSpan){
+                    lastContentSpan.classList.remove("annotatie-teken");
+                }
             }
         })
     })
@@ -130,7 +139,7 @@ addAnnotationButton.addEventListener('click', annotateText);
 
 // MARK: tabben en extra hierarchie tussen de elementen
 // Alle articles selecteren en in een array stoppen 
-const articles = Array.from(document.querySelectorAll('article'));
+const articles = Array.from(document.querySelectorAll('li'));
 var currentArticleNumber = 0;
 
 
@@ -142,7 +151,7 @@ var currentArticleNumber = 0;
 document.addEventListener('keydown', function(event) {
     const activeArticle = document.activeElement;
     // https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code
-    if (!activeArticle || activeArticle.tagName !== 'ARTICLE' ){
+    if (!activeArticle || activeArticle.tagName !== 'LI' ){
         // open dan de link
         return;
     }
