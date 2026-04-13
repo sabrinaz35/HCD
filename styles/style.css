@@ -112,6 +112,12 @@ form {
     }
 }
 
+@media (width < 700px) {
+    form {
+        width: 90%;
+    }
+}
+
 span:focus {
     background-color: var(--text-color);
     color: var(--wit-kleur);
