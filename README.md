@@ -484,6 +484,10 @@ esc = is terug van de form naar de geselecteerde tekst
 - Wat vindt hij van de hulp stukken tussen de teksten?
 - Wat vindt hij van de flow?
 - Werken de knoppen goed voor hem?
+- Vindt hij het nodig om een titel te kunnen toevoegen? 
+
+ADD nonsense idee voorstellen:
+- Zou u er baat bij hebben om de kleuren te kunnen aanpassen bij de annotatie? Om ze zo sneller terug te kunnen vinden?
 
 
 ### Weekly geek voorbereiden
@@ -511,28 +515,57 @@ Ik heb geleerd dat een aria-label ervoor zorgt dat de tekst ook niet meer wordt 
 - Zodra je door de annotaties heen tabt dat als je dan op enter klikt dat je dan meteen terug gaat naar het stukje tekst?
 
 
+#### Wat ik laat testen
+- De flow tussen de alinea's
+![](images/readme-images/14-4-flow.png)
+
+- De markering en de nieuwe focus point bij het formulier.
+![](images/readme-images/14-4-markering+nieuwfocus.png)
 
 
 
 
 ## Week 3: Dinsdag 14 april
 ### Proces
-Vandaag is de dag van de
+Vandaag wil ik stilstaan bij de vier principes die wij tijdens die vak behandelen:
+
+'We werken met de exclusive design principles:'
+
+*Study situation*
+In het begin van dit vak kregen we te maken met een doelgroep waarvoor ikzelf nog nooit ontworpen heb. Zelf maak ik ook vrij weinig gebruik van de screenreader, dus wilde ik kijken hoe Roger hiermee omgaat en waar zijn behoefte liggen.
+
+*Ignore conventions*
+Tijdens het bestuderen van de situatie kwam ik erachter dat Roger niet veel snelcodes/ nog niet helemaal thuis is met wat de screenreader allemaal kan. Dus die functionaliteiten laat ik links liggen en ik ben zelf shortcuts gaan bedenken/toevoegen die voor hem logischer zijn om te gebruiken en om zo iets te maken wat ook echt bij hem past. Daar wil ik vandaag op testen.
+
+*Prioritise identity*
+Roger ziet nog wel een beetje en daarom heb ik bij de tweede test gevraagd naar de kleuren, of het de juiste kleuren waren en of er iets anders moet, zodat zijn identiteit terug komt door middel van zijn voorkeuren.
+
+*Add nonsense*
+<!-- Wat nou als dit dat doet? Vragen stellen als het niet lukt om het te maken. -->
+Zou het voor hem werken om de kleur van de annotatie aan te kunnen passen? Naar mijn idee lijkt dit niet echt een goed idee, omdat er dan misschien te veel voor hem gebeurd?
+- Ik kan dit aan hem voorstellen en als hij er wel enthousiast over is dan ook uitvoeren.
+
+
+#### Tijdens de test
 
 
 
-
-#### Testplan
-##### Voorbereidende vragen voor Roger 
-
-#### Iteratie
 ##### Wat ik meeneem uit de test:
 
 ### Weekly geek bespreken
 
 ### Checkout
 #### Wat heb ik gedaan?
+- Stilstaan bij de principles
+- laatste puntjes op de i gezet voor de code
+- Test gedaan
+- Feedback tot mij genomen
+
+
 #### Hoelang heeft dat geduurd?
+- 09:30 - 12:00 gewerkt aan mijn prototype 
+- 
+
 #### Wat heb ik geleerd?
 #### Wat ga je morgen doen?
 

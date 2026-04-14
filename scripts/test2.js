@@ -81,6 +81,8 @@ document.addEventListener('keydown', function(event){
                 p.remove();
             }
 
+            let annotation;
+
             // De focus weer terug zetten op de zin
             if(lastContentSpan) {
                 lastContentSpan.focus()
@@ -92,6 +94,9 @@ document.addEventListener('keydown', function(event){
                     lastContentSpan.classList.remove("annotatie-teken");
                 }
             }
+
+            console.log(lastContentSpan)
+            console.log(lastContentSpan?.classList)
         }
     }
 })
@@ -197,28 +202,34 @@ document.addEventListener('keydown', function(event) {
 // MARK: van links naar recht tussen annotatie en tekst switch
 // Werk nof niet
 
-document.addEventListener('keydown', function(event) {
-    const activeArticle = document.activeElement;
-    // https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code
-    const sectionAnnotatie = document.querySelector('div section');
-    const sectionText = document.querySelector('div ol')
+// let lastListItem = null;
 
-    if (!activeArticle || activeArticle.tagName !== 'LI' ){
-        // open dan de link
-        return;
-    }
+// document.addEventListener('keydown', function(event) {
+//     const activeElement = document.activeElement;
+//     // https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code
+//     const sectionAnnotatie = document.querySelector('div section');
 
-    if(event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
-        // zprgt voor geen scroll
-        event.preventDefault()
-    }
+//     if (activeElement || activeElement.tagName !== 'LI' ){
+//         // open dan de link
+//         lastListItem = activeElement;
+//     }
 
-    if(event.key === 'ArrowRight'){
-        sectionAnnotatie.focus()
-    }
+//     if(event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+//         // zprgt voor geen scroll
+//         event.preventDefault()
+//     }
 
-// terug
-    if(event.key === 'ArrowLeft'){
-        sectionText.focus()
-    }
-});
+//     if(event.key === 'ArrowRight'){
+
+//         if(activeElement.tagName === 'LI') {
+//             sectionAnnotatie.focus()
+//         }
+//     }
+
+// // terug
+//     if(event.key === 'ArrowLeft'){
+//         if (activeElement.tagName === 'SECTION' && lastListItem) {
+//             lastListItem.focus()
+//         }
+//     }
+// });
