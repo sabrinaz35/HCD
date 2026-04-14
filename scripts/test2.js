@@ -54,7 +54,7 @@ document.addEventListener('keydown', function(event){
             }
 
             let selectedTekstToAnnotationHTML = 
-                ` <p aria-label="Wilt u een annotatie maken bij de tekst? Nee klik op escape ja, ga met de tab verder: ${selectedContentSpan}" tabindex=0>${selectedContentSpan}</p>`
+                ` <p aria-label="Wilt u een annotatie maken bij de tekst? Nee klik op escape ja, ga met de tab verder. U heeft op dit moment de volgende zin geselecteerd; ${selectedContentSpan}" tabindex=0>${selectedContentSpan}</p>`
 
             if(lastContentSpan){
                 lastContentSpan.classList.add("annotatie-teken");
@@ -89,11 +89,11 @@ document.addEventListener('keydown', function(event){
             }
 
             // Als er nog geen annotatie is dan moet het niet gemarkeerd worden
-            if(!annotation) {
-                if(lastContentSpan){
-                    lastContentSpan.classList.remove("annotatie-teken");
-                }
-            }
+            // if(!annotation) {
+            //     if(lastContentSpan){
+            //         lastContentSpan.classList.remove("annotatie-teken");
+            //     }
+            // }
 
             console.log(lastContentSpan)
             console.log(lastContentSpan?.classList)
@@ -104,6 +104,7 @@ document.addEventListener('keydown', function(event){
 // MARK: Toevoegen annotatie
 function annotateText(){
 
+    const section = document.querySelector('section')
     let titleAnnotation = inputAnnotatieValueTitle.value
     let annotation = inputAnnotatieValue.value
 
@@ -116,15 +117,29 @@ function annotateText(){
             <p tabindex="0">${annotation}</p>
             <div> 
                 <button type="button" class="deleteButton">Verwijder annotatie</button>
-                <button class="EditAnnotatie" type="button">Edit uw annotatie</button>
             </div>
         </article>`
-        document.querySelector('section').insertAdjacentHTML('beforeend', annotationHTML);
 
-    } else {
+        section.insertAdjacentHTML('beforeend', annotationHTML);
+
+    //     const allAnnotations = section.querySelectorAll('.newAnnotatie');
+    //     const lastAnnotation = allAnnotations[allAnnotations.length - 1];
+
+    //     lastAnnotation.focus();
+    // } else {
         console.log('fout bij invullen')
     }
 
+    // <button class="EditAnnotatie" type="button">Edit uw annotatie</button> deze moet dan onder de verwijderbutton komen
+
+
+    // // Dit werkt nog niet
+    // const buttonAddAnnotation = document.querySelector('.buttonAddAnnotation');
+    // const newAnnotation = document.querySelector('.newAnnotatie')
+
+    // buttonAddAnnotation.addEventListener('click', function(){
+    //     newAnnotation.focus()
+    // })
 
 
 // MARK: remove annotatie

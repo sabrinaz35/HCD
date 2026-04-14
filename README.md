@@ -564,28 +564,25 @@ Zou het voor hem werken om de kleur van de annotatie aan te kunnen passen? Naar 
 
 #### Hoelang heeft dat geduurd?
 - 09:30 - 12:00 gewerkt aan mijn prototype 
-- 
+- 12:00 - 13:00 pauze gehouden
+
+- 14:00 - 16:00 test met Roger
 
 #### Wat heb ik geleerd?
+
 #### Wat ga je morgen doen?
+Ik ga verder met feedback verwerken en iets proberen waarvan ik zelf denk dat het niet veel uitmaakt, maar misschien wellicht wel een goeie mogelijkheid kan zijn. 
 
-
-### Iteratie 2: Na eerste gesprek
-
-
-
+### Iteratie 3: Na derde gesprek
 
 
 
 
-## Week 3: Dinsdag 14 april
+
+
+
+## Week 4: Maandag ... april
 ### Proces
-Vandaag is de dag van de
-
-*#### Study situation*
-Wie is Roger en waar heeft hij behoefte aan? 
-
-
 
 #### Testplan
 ##### Voorbereidende vragen voor Roger 
@@ -602,10 +599,28 @@ Wie is Roger en waar heeft hij behoefte aan?
 #### Wat ga je morgen doen?
 
 
-### Iteratie 2: Na eerste gesprek
+### Iteratie 4: Na eerste gesprek
 
 
+## Week 4: Dinsdag ... april
+### Proces
 
+#### Testplan
+##### Voorbereidende vragen voor Roger 
+
+#### Iteratie
+##### Wat ik meeneem uit de test:
+
+### Weekly geek bespreken
+
+### Checkout
+#### Wat heb ik gedaan?
+#### Hoelang heeft dat geduurd?
+#### Wat heb ik geleerd?
+#### Wat ga je morgen doen?
+
+
+### Iteratie 4: Na eerste gesprek
 
 
 ## Bronnen
