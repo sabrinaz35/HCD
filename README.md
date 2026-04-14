@@ -547,10 +547,110 @@ Zou het voor hem werken om de kleur van de annotatie aan te kunnen passen? Naar 
 
 
 #### Tijdens de test
+##### Vragen voor Roger
+- Wat vindt hij van de hulp stukken tussen de teksten?
+- Wat vindt hij van de flow?
+- Werken de knoppen goed voor hem?
+- Vindt hij het nodig om een titel te kunnen toevoegen? 
 
+ADD nonsense idee voorstellen:
+- Zou u er baat bij hebben om de kleuren te kunnen aanpassen bij de
 
+##### De tests
+*Test van Jeppe*
+- Hij klikt op control en vervolgens op alt
+- Hij drukt op tab om te wisselen tussen de toetsen.
+Hij gebruikte gelijk zijn eigen gemaakte sneltoets om een notitie te maken
+
+- zij spoor over straat in amsterdam met filosofen
+Hij drukte denk ik een keer te snel op tab 
+
+Shift tab om terug te gaan in eerste instantie, dus die werkt
+Hij herinnerde de X ook wel meteen weer.
+
+De grootte van de tekst is zo goed, hij ziet het toch niet. Gele is wel fijn zo. In combinatie met de kleuren en de hoeveelheid aan zinnen is zo fijn, het moeten niet meer zinnen zijn. 
+
+Leuk om sneltoetsen te kiezen, iedere screenreaders werken anders supernova en voiceover. Hij heeft nog niet de stap gemaakt om over te stappen op macbook. 
+
+*Test van mij*
+- Weer verward door structuur tekst met control-option-pijl omhoog
+- Navigeert even door hoofdstukken en gaat vervolgens een hoofdstuk luisteren
+- Toen wilde hij annotatie maken, wist niet hoe hij daar kwam, was het vergeten
+- Hij gaat op zoek: navigeert door het hoofdstuk met tab
+- Had niet goed door waar de focus was (dacht dat hij in h2 was maar was in laatste zin h1 (screenreader focus border was groter dan die laatste zin en omvatte daardoor heading van hoofdstuk 2)
+- Voorzeggen annotatie maken is met enter, hij gaat notitie maken, vult titel in, ziet vervolgens niet waar de focus is en snapt niet hoe hij in het notitie tekstvak terecht komt
+- Legde wel soort van de link tussen de blauw gemarkeerde tekst en de annotatie, maar tijd tussen annotatie maken en zin horen was lang geleden dus het leek erop dat hij zich niet meer goed kon herinneren wat de zin was, uiteindelijk opgeslagen, was niet helemaal duidelijk dat dit met enter moest
+- Notitie verschijnt boven het formulier, hij snapt niet dat het opgeslagen is en leest het woord verwijderen, hij is in de war en zegt dat hij niet wil verwijderen maar wil opslaan
+- Hij wil duidelijk zien welke notitie bij welke zin hoort
+- Hij vindt het kleurgebruik goed maar het moet wat duidelijker
+- Meteen hele stuk voorlezen vindt hij prettig maar dan wil hij markeren maar de voiceover stopt niet
+- Voorzeggen dat ie met tab los door de zinnen kan en dan gaat ie annotatie maken
+- Hij vindt zelf titel maken niet nodig, oppert om als titel automatisch titel van het hoofdstuk te doen zodat hij dat niet zelf hoeft aan te geven
+- Annotatie formulier onthoudt vorige annotatie tekst
+- Tweede keer lukt zelf opslaan van de annotatie wel
+- Hij vindt pijltjes en tab fijn werken om te navigeren, moest vooral even inkomen
+
+Uiteindelijk vond hij het wel tof wat ik gemaakt had. 
+
+*Test van Joshua*
+- Er wordt te veel gezegd door de voiceover
+- Rood is niet een goeie kleur voor Roger
+- Hij is de weg kwijt, hij zit buiten de viewport en weet niet goed hoe hij terug moet komen
+- Hij wilt de screenreader op pauze kunnen zetten. 
+
+*Test van Jelle*
+Hij maakt ook foto's als reminder, of om het juist beter te kunnen zien. 
+
+Op mobiel getest:
+- Hij speelt zijn tekst heel snel af
+
+- Pinch en draai om op te zoeken
+- gestures programmeren om naar een tekstinvulveld te komen
+Hij weet niet goed hoe hij moet navigeren door een pagina op de mobiel. 
+- Door veeg bewegingen kan je door de pagina heen
+- Via de regelaar iets kunnen instellen om een annotatie te maken
+
+*Test van Nouafal*
+- Ik weet niet of hij weet hoe hij met een screenreader alleen door de kop niveau's heen te gaan
+- Daarmee kan hij makkelijker door de tekst heen gaan om makkelijk naar een deel van de tekst te navigeren, dus ik denk dat hij dat wel weet.
+- is ook een idee per zin erdoorheen te tabben
+- Hij kan niet goed vinden waar hij op dit moment is. 
+
+*Test van Ocean*
+- Hij vindt een toets Q wel fijn
+- Hij vraagt hoe je moet navigeren en dat is enter
+- Hij redt het wel om te zien maar je merkt dat hij even moet testen
+- Wat is actief en wat is niet actief, waar ik ben is de highlight
+- Tekst mag wel wat dikker of groter
+
+*Test van Melvin*
+- binnen de annotatie vind hij het lastig om te zien waat hij is 
+- Hij weet niet zo goed hoe hij terug moet naar de tekst 
+- Dubbele sneltoetsen werkt niet voor Roger, een toets is voor hem wat duidelijker
+- Focus state bij tekstveld is niet zo goed zichtbaar
+
+- lettertype: hij kan overal best wel goed mee omgaan, vetgedrukte lettertype
+
+*Test van Kelly*
+- Hij heeft een beetje moeite om door de hoofdstukken te selecteren
+- Hij slaat meteen de sneltoetsen guide over
+- Hij wilt graag de tab, en shift tab weet hij ook
+- verwacht dat hij meteen gaat voorlezen, dus hij opent eerst de pagina en dan wilt hij dat hij het meteen voorleest.
+- Kan niet goed zien waar je bent
+- spreekt een beetje raar de engelse taal uit, maar dat kan
+- Het werkt wel, dat hij de stem opneemt, maar hij blijft het voorlezen.
 
 ##### Wat ik meeneem uit de test:
+Overall er zaten goeie punten in en ook punten die compleet mis gingen. 
+
+- screenreader op pauze kunnen zetten? 
+- Notitieveld leeg als je al een notitie hebt gemaakt
+- Met verschillende kleuren werekn voor de annotatie om een contrast te creëeren.
+- Bevestiging geven zodra de notitie is opgeslagen
+- Focus binnen het formulier was heel verwarrend, daar raakt hij de weg nog kwijt.
+- Een annotatieveld weghalen, want hij begreep niet waarom hij een annotatie moest invullen 
+- Bij form als je meteen op enter klikt dat de annotatie dan ook meteen op gaat slaan.
+- dikgedrukte lettertype/iets vergrootte
 
 ### Weekly geek bespreken
 
