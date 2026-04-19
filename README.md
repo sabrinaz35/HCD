@@ -645,14 +645,16 @@ Overall er zaten goeie punten in en ook punten die compleet mis gingen.
 
 - screenreader op pauze kunnen zetten? 
 - Notitieveld leeg als je al een notitie hebt gemaakt
-- Met verschillende kleuren werekn voor de annotatie om een contrast te creëeren.
+- Met verschillende kleuren werekn voor de annotatie om een contrast te creëeren. 
 - Bevestiging geven zodra de notitie is opgeslagen
 - Focus binnen het formulier was heel verwarrend, daar raakt hij de weg nog kwijt.
 - Een annotatieveld weghalen, want hij begreep niet waarom hij een annotatie moest invullen 
 - Bij form als je meteen op enter klikt dat de annotatie dan ook meteen op gaat slaan.
 - dikgedrukte lettertype/iets vergrootte
+- titel van alinea ook, als titel aangeven binnen het form, ipv dat hij het zelf invuld
 
 ### Weekly geek bespreken
+n.v.t.
 
 ### Checkout
 #### Wat heb ik gedaan?
@@ -681,19 +683,28 @@ Ik ga verder met feedback verwerken en iets proberen waarvan ik zelf denk dat he
 
 
 
-## Week 4: Maandag ... april
+## Week 4: Maandag 20 april
 ### Proces
+Vandaag ga ik de feedback verwerken en ik ben op de volgende punten gekomen op basis van de test:
+- screenreader op pauze kunnen zetten? 
+- Notitieveld leeg als je al een notitie hebt gemaakt
+- Met verschillende kleuren werekn voor de annotatie om een contrast te creëeren. 
+- Bevestiging geven zodra de notitie is opgeslagen
+- Focus binnen het formulier was heel verwarrend, daar raakt hij de weg nog kwijt.
+- Een annotatieveld weghalen, want hij begreep niet waarom hij een annotatie moest invullen 
+- Bij form als je meteen op enter klikt dat de annotatie dan ook meteen op gaat slaan.
+- dikgedrukte lettertype/iets vergrootte
+- titel van alinea ook, als titel aangeven binnen het form, ipv dat hij het zelf invuld
 
 #### Testplan
 ##### Voorbereidende vragen voor Roger 
 
-#### Iteratie
-##### Wat ik meeneem uit de test:
 
-### Weekly geek bespreken
+### Weekly geek voorbereiden
 
 ### Checkout
 #### Wat heb ik gedaan?
+- feedback van Roger verwerkt.
 #### Hoelang heeft dat geduurd?
 #### Wat heb ik geleerd?
 #### Wat ga je morgen doen?
@@ -702,7 +713,7 @@ Ik ga verder met feedback verwerken en iets proberen waarvan ik zelf denk dat he
 ### Iteratie 4: Na eerste gesprek
 
 
-## Week 4: Dinsdag ... april
+## Week 4: Dinsdag 21 april
 ### Proces
 
 #### Testplan
