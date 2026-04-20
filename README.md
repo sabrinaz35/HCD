@@ -711,6 +711,8 @@ Ik wil nog even testen of de dikgedrukte letters en manier van aangeven dat welk
 n.v.t.
 
 ### Checkout
+checkout gedaan met Maja.
+
 #### Wat heb ik gedaan?
 - feedback van Roger verwerkt.
 - Met verschillende kleuren werekn voor de annotatie om een contrast te creëeren.
