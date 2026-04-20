@@ -675,11 +675,6 @@ n.v.t.
 #### Wat ga je morgen doen?
 Ik ga verder met feedback verwerken en iets proberen waarvan ik zelf denk dat het niet veel uitmaakt, maar misschien wellicht wel een goeie mogelijkheid kan zijn. 
 
-### Iteratie 3: Na derde gesprek
-
-
-
-
 
 
 
