@@ -33,23 +33,26 @@
                     </p>
                 </li>
             </ol>
-            <section tabindex="0">
+            <section tabindex="-1">
                 <h2 tabindex="0">Uw geschreven annotaties</h2>
             </section>
         </div>
 
-        <form  action=".">
-            <h3 tabindex="0">Schrijf hier uw annotatie</h3>
-            <!-- <label class="annotatieValueTitle">
-                Titel van uw annotatie
-                <input aria-label="U bevindt zich op invoerveld 1 van de 2, type uw titel in en druk op tab" type="text" value="">
-            </label> -->
-            <label class="annotatieValue">
-                Vul hier uw annotatie in
-                <input aria-label="U bevindt zich op invoerveld 2 van de 2, type uw titel in en druk op tab" type="text" value="">
-            </label>
-            <button aria-label="Druk op enter om de annotatie op te slaan" class="buttonAddAnnotation" type="button">Voeg annotatie toe</button>
-        </form>
+        <div class="formInput">
+            <form  action=".">
+                <h3 tabindex="0">Schrijf hier uw annotatie</h3>
+                <!-- <label class="annotatieValueTitle">
+                    Titel van uw annotatie
+                    <input aria-label="U bevindt zich op invoerveld 1 van de 2, type uw titel in en druk op tab" type="text" value="">
+                </label> -->
+                <label class="annotatieValue">
+                    Vul hier uw annotatie in
+                    <input aria-label="U bevindt zich op invoerveld 2 van de 2, type uw titel in en druk op tab" type="text" value="">
+                </label>
+                <button aria-label="Druk op enter om de annotatie op te slaan" class="buttonAddAnnotation" type="button">Voeg annotatie toe</button>
+                <p id="opslaanBevestiging" aria-live="polite"></p>
+            </form>
+        </div>
     </main>
     <footer>
         <nav>

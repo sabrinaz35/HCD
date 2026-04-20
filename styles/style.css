@@ -8,7 +8,7 @@
     --text-color: rgb(224, 224, 131);
     --text-color-2: #000;
     --wit-kleur: #000;
-    --blauwe-color:rgba(113, 231, 244);
+    --blauwe-color:rgb(171, 64, 195);
 
     --padding-small: 1rem;
     --border-radius-small: 5px;
@@ -39,16 +39,15 @@ nav ul li a {
 }
 
 main {
-    display: flex;
     flex-direction: column;
-    margin:0 3rem;
+    margin:0 7rem;
 
-        div{
+        div:not(:nth-of-type(2)){
             display: grid;
             
             justify-content: center;
-            grid-template-columns: 60% 40%;
-            gap: 1.5rem;
+            grid-template-columns: 50% 40%;
+            gap: 10%;
             margin-top: 3rem;
 
 
@@ -73,22 +72,38 @@ main {
 
 
 /* Invoerveld */
+.form-seen {
+    display: none;
+}
+
 form { 
-    position: sticky;
+    /* position: sticky;
     bottom: var( --padding-small);
-    right: 0;
-    display: flex;
+    right: 0; */
+
+    position: sticky;
+    bottom: 40%;
+    right: 35%;
+    display: none;
     flex-direction: column;
     align-self: end;
     width: 30%;
     padding: 1.5rem;
     margin: var( --padding-small);
     border: 1px solid var(--text-color-2);
-    background-color: var(--blauwe-color);
+    background-color: var(--text-color);
     border-radius: 5px;
+
+    h3 {
+        font-size: 1.3rem;
+    }
 
     h3, p{
         color: var(--text-color-2);
+    
+        &:focus {
+            outline: 5px solid var(--blauwe-color);
+        }
     }
 
     p {
@@ -101,12 +116,17 @@ form {
         flex-direction: column;
         padding: .5rem 0;
         color: var(--text-color-2);
+        font-size: 1.3rem;
+
+        &:focus {
+            outline: 5px solid var(--blauwe-color);
+        }
 
         input {
             padding: .2rem;
 
             &:focus {
-                outline: 2px solid yellow;
+                outline: 5px solid var(--blauwe-color);
             }
         }
     }
@@ -116,6 +136,26 @@ form {
         color: #fff;
         border-radius: 5px;
         padding: .5rem;
+
+        &:focus {
+            outline: 5px solid var(--blauwe-color);
+        }
+    }
+}
+
+.form-seen {
+    backdrop-filter: grayscale(30%);
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    left: 0;
+    top: 0;
+    display: flex;
+
+    form {
+        display: flex;
+        position: absolute;
     }
 }
 
@@ -138,13 +178,21 @@ span:focus {
 /* Styling annotaties */
 .newAnnotatie {
     border: 1px solid var(--background-color);
-    background-color: var(--text-color);
-    border-radius: var(--border-radius-small);
+    border-radius: var(--border-radius-small);              
     padding: var( --padding-small);
-    width: fit-content;
+    width: 100%;
+
+    &:nth-child(even) {
+        background-color: var(--text-color);
+    }
+
+    &:nth-child(odd) {
+        background-color: rgb(113, 231, 244, .8);       
+    }
 
     h2, p {
         color: var(--background-color);
+        font-size: 1.2rem;
     }
 
     p:first-of-type{
@@ -152,6 +200,7 @@ span:focus {
         padding: var( --padding-small);
         margin-bottom: var( --padding-small);
         font-style: italic;
+        font-size: 1.2rem;
     }
 
     button {
@@ -164,8 +213,33 @@ span:focus {
     }
 }
 
-span.annotatie-teken {
+span.annotatie-teken:nth-child(even) {
     background-color: rgb(113, 231, 244, .8);
     color: var(--text-color-2);
 }
 
+span.annotatie-teken:nth-child(odd) {
+    background-color: rgba(255, 253, 114, 0.8);
+    color: var(--text-color-2);
+}
+
+
+/* het oplichten van de annotatie */
+
+span.annotatie-teken.focusedAnnotatie {
+    background-color: white;
+    outline: 5px solid white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.newAnnotatie.focusedAnnotatie {
+    outline: 5px solid white;
+    background-color: white;
+    border-radius: 10px;
+    
+
+    p {
+        font-size: 1.5rem;
+    }
+}

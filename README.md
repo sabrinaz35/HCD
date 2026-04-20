@@ -682,27 +682,59 @@ Ik ga verder met feedback verwerken en iets proberen waarvan ik zelf denk dat he
 ### Proces
 Vandaag ga ik de feedback verwerken en ik ben op de volgende punten gekomen op basis van de test:
 - screenreader op pauze kunnen zetten? 
-- Notitieveld leeg als je al een notitie hebt gemaakt
-- Met verschillende kleuren werekn voor de annotatie om een contrast te creëeren. 
 - Bevestiging geven zodra de notitie is opgeslagen
-- Focus binnen het formulier was heel verwarrend, daar raakt hij de weg nog kwijt.
-- Een annotatieveld weghalen, want hij begreep niet waarom hij een annotatie moest invullen 
 - Bij form als je meteen op enter klikt dat de annotatie dan ook meteen op gaat slaan.
+
+
+Dit heb ik nu al gedaan:
+- Met verschillende kleuren werekn voor de annotatie om een contrast te creëeren.
+- Een annotatieveld van titel weghalen, want hij begreep niet waarom hij een annotatie moest invullen 
 - dikgedrukte lettertype/iets vergrootte
+![](images/readme-images/20-4-linken-van-annotatie.png)
+- Focus binnen het formulier was heel verwarrend, daar raakt hij de weg nog kwijt.
+![](images/readme-images/20-4-dialog-idee.png)
+
 - titel van alinea ook, als titel aangeven binnen het form, ipv dat hij het zelf invuld
+- arrow left en right gefixt wat de vorige keer niet lukte
+- Notitieveld leeg als je al een notitie hebt gemaakt
+
+Ik wil nog even testen of de dikgedrukte letters en manier van aangeven dat welke annotatie waarbij hoort, of dat goef genoeg is.
+
+
 
 #### Testplan
 ##### Voorbereidende vragen voor Roger 
-
+- wat verwacht u dat het opslaan van de annotaties gaat werken?
+- Wat vind u van de persoonlijke teksten?
 
 ### Weekly geek voorbereiden
+n.v.t.
 
 ### Checkout
 #### Wat heb ik gedaan?
 - feedback van Roger verwerkt.
+- Met verschillende kleuren werekn voor de annotatie om een contrast te creëeren.
+- Een annotatieveld van titel weghalen, want hij begreep niet waarom hij een annotatie moest invullen 
+- dikgedrukte lettertype/iets vergrootte
+- Focus binnen het formulier was heel verwarrend, daar raakt hij de weg nog kwijt.
+- titel van alinea ook, als titel aangeven binnen het form, ipv dat hij het zelf invuld
+- arrow left en right gefixt wat de vorige keer niet lukte
+- Notitieveld leeg als je al een notitie hebt gemaakt
+
 #### Hoelang heeft dat geduurd?
+ - 09:30 - 10:15 introductie
+ - 10:15 - 12:00 gewerkt aan van alles en nog wat ik heb het niet bijgehouden
+ - 12:00 - 13:00 pauze
+ - 13:00 - 16:00 weer verder gewerkt
+
 #### Wat heb ik geleerd?
+Ik heb veel verschillende dingen geleerd, ik heb geleerd hoe ik dingen kan checken en controleren
+Ook heb ben ik een idee van Jeppe die mij feedback heeft gegeven toegepast.
+
 #### Wat ga je morgen doen?
+- kijken of ik popover kan gebruiken voor de bevestigign van het opslaan
+- of wellicht aria-label veranderen
+- nog nonsense toevoegen.
 
 
 ### Iteratie 4: Na eerste gesprek
@@ -769,6 +801,14 @@ Het opsplitsen van zinnen met span:
 // Voor optimaliseren van de function want hij werkte niet 
 // https://chatgpt.com/c/69dc97d6-7508-8327-b69b-c037bc1d5c19
 // Promt: De scroll werkt nu niet meer, maar de focus werkt nu ook niet en ik heb bij elke article een tabindex
+
+// HUlp van claudeai 
+// Prompt: ik wil hier een function schrijven waarbij ik kijk of er twee elementen overeen komen, en dan wil ik er een class aangeven en met css wil ik er dan een lijn tussen maken of dat het een andere kleur krijgt
+// https://claude.ai/share/d6b86135-9caf-4360-af64-be8eeecfed38
+
+// claudeAI om fouten eruit te halen
+// prompt: Dit werkt niet, hoe is het mogelijk?
+// https://claude.ai/share/92be3b12-e539-483a-b011-9aec5c447f58
 
  Check wat is geselecteerd met de tag van een span die eraan gegeven is:
  - https://developer.mozilla.org/en-US/docs/Web/API/Element/tagName 

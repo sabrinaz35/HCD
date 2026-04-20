@@ -8,7 +8,10 @@
 const tekst = document.querySelectorAll('p');
 const readText = window.speechSynthesis;
 
-let inputAnnotatieValueTitle = document.querySelector('.annotatieValueTitle input')
+// Variabel input
+const inputField = document.querySelector('.annotatieValue input');
+
+// let inputAnnotatieValueTitle = document.querySelector('.annotatieValueTitle input')
 let inputAnnotatieValue = document.querySelector('.annotatieValue input')
 
 tekst.forEach(function(p){
@@ -36,6 +39,7 @@ tekst.forEach(function(p){
 
 let selectedContentSpan = "";
 let lastContentSpan = null;
+const form = document.querySelector('.formInput');
 
 document.addEventListener('keydown', function(event){
     //https://developer.mozilla.org/en-US/docs/Web/API/Document/hasFocus
@@ -43,10 +47,15 @@ document.addEventListener('keydown', function(event){
     if (event.key === 'Enter') {
         const individualSpan = document.activeElement;
 
+
+
         // https://developer.mozilla.org/en-US/docs/Web/API/Element/tagName
         if(individualSpan.tagName === "SPAN") {
             selectedContentSpan = individualSpan.textContent;
             lastContentSpan = individualSpan;
+
+            form.classList.add('form-seen');
+
             // Check of er aal een p in staat, zo ja verwijderen en de nieuwe toevoegen
             const currentP = document.querySelector('form p');
             if (currentP) {
@@ -62,17 +71,17 @@ document.addEventListener('keydown', function(event){
 
             document.querySelector('form').insertAdjacentHTML('afterbegin', selectedTekstToAnnotationHTML);
 
-            const newP = document.querySelector(' form p')
+            const newP = document.querySelector('form p')
             newP.focus()
-            
         }
+}});
 
-    }
-});
 
+
+
+// MARK: uit de form gaan
 document.addEventListener('keydown', function(event){
     if (event.key === 'Escape'){
-        const form = document.querySelector('form');
 
         // https://developer.mozilla.org/en-US/docs/Web/API/Node/contains
         if(form.contains(document.activeElement)){
@@ -86,14 +95,8 @@ document.addEventListener('keydown', function(event){
             // De focus weer terug zetten op de zin
             if(lastContentSpan) {
                 lastContentSpan.focus()
+                form.classList.remove('form-seen');
             }
-
-            // Als er nog geen annotatie is dan moet het niet gemarkeerd worden
-            // if(!annotation) {
-            //     if(lastContentSpan){
-            //         lastContentSpan.classList.remove("annotatie-teken");
-            //     }
-            // }
 
             console.log(lastContentSpan)
             console.log(lastContentSpan?.classList)
@@ -105,15 +108,14 @@ document.addEventListener('keydown', function(event){
 function annotateText(){
 
     const section = document.querySelector('section')
-    let titleAnnotation = inputAnnotatieValueTitle.value
+    // let titleAnnotation = inputAnnotatieValueTitle.value
     let annotation = inputAnnotatieValue.value
 
-    if(titleAnnotation !== "" && annotation !== ""){
+    if(annotation !== ""){
 
         let annotationHTML = 
-        ` <article tabindex=0 class="newAnnotatie">
+        ` <article tabindex=0 class="newAnnotatie" data-annotatie="${selectedContentSpan}">
             <p tabindex=0>${selectedContentSpan}</p>
-            <h2 tabindex="0">${titleAnnotation}</h2>
             <p tabindex="0">${annotation}</p>
             <div> 
                 <button type="button" class="deleteButton">Verwijder annotatie</button>
@@ -122,26 +124,12 @@ function annotateText(){
 
         section.insertAdjacentHTML('beforeend', annotationHTML);
 
-    //     const allAnnotations = section.querySelectorAll('.newAnnotatie');
-    //     const lastAnnotation = allAnnotations[allAnnotations.length - 1];
-
-    //     lastAnnotation.focus();
-    // } else {
+    } else {
         console.log('fout bij invullen')
     }
 
-    // <button class="EditAnnotatie" type="button">Edit uw annotatie</button> deze moet dan onder de verwijderbutton komen
 
-
-    // // Dit werkt nog niet
-    // const buttonAddAnnotation = document.querySelector('.buttonAddAnnotation');
-    // const newAnnotation = document.querySelector('.newAnnotatie')
-
-    // buttonAddAnnotation.addEventListener('click', function(){
-    //     newAnnotation.focus()
-    // })
-
-
+    
 // MARK: remove annotatie
     const deleteButton = document.querySelectorAll('.deleteButton')
 
@@ -154,6 +142,7 @@ function annotateText(){
                 // Markering verwijderen als de annotatie ook verwijdert wordt.
                 if(lastContentSpan){
                     lastContentSpan.classList.remove("annotatie-teken");
+            
                 }
             }
         })
@@ -161,9 +150,72 @@ function annotateText(){
 }
 
 
-const addAnnotationButton = document.querySelector('.buttonAddAnnotation')
+//MARK: Link aan de annotatie/oplichten ervan
+// HUlp van claudeai 
+// Prompt: ik wil hier een function schrijven waarbij ik kijk of er twee elementen overeen komen, en dan wil ik er een class aangeven en met css wil ik er dan een lijn tussen maken of dat het een andere kleur krijgt
+// https://claude.ai/share/d6b86135-9caf-4360-af64-be8eeecfed38
 
-addAnnotationButton.addEventListener('click', annotateText);
+function focusWithAnnotation (){
+    const spanWithAnnotation = document.querySelector('ol');
+
+    console.log('container:', spanWithAnnotation)
+
+    spanWithAnnotation.addEventListener('focusin', function (event) {
+        const span = event.target
+
+        if(!span.classList.contains('annotatie-teken')) {
+            return;
+        }
+
+
+        const spanText = span.textContent.trim();
+        const allAnnotations = document.querySelectorAll('.newAnnotatie');
+
+        let matchAnnotatie = null;
+
+        // Eerst de match
+        allAnnotations.forEach(article => {
+            if (article.dataset.annotatie.trim() === spanText.trim()){
+                matchAnnotatie = article;
+            }
+        })
+
+        if (!matchAnnotatie) {
+            return;
+        };
+
+        span.classList.add('focusedAnnotatie')
+        matchAnnotatie.classList.add('focusedAnnotatie')
+
+    })
+
+        spanWithAnnotation.addEventListener('focusout', function(){
+            document.querySelectorAll('.focusedAnnotatie').forEach(element => {
+                element.classList.remove('focusedAnnotatie')
+            })
+        })
+}
+    
+
+
+// MARK: Save features
+const saveAnnotationButton = document.querySelector('form button')
+const opslaanBevestiging = document.querySelector('#opslaanBevestiging')
+
+saveAnnotationButton.addEventListener('click', function () {
+    const inputAnnotation = inputField.value;
+    annotateText()
+
+    inputField.value = '';
+    form.classList.remove('form-seen');
+
+    lastContentSpan.focus();
+
+    
+
+});
+
+focusWithAnnotation();
 
 // MARK: tabben en extra hierarchie tussen de elementen
 // Alle articles selecteren en in een array stoppen 
@@ -215,36 +267,42 @@ document.addEventListener('keydown', function(event) {
 
 
 // MARK: van links naar recht tussen annotatie en tekst switch
-// Werk nof niet
+// claudeAI om fouten eruit te halen
+// prompt: Dit werkt niet, hoe is het mogelijk?
+// https://claude.ai/share/92be3b12-e539-483a-b011-9aec5c447f58
 
-// let lastListItem = null;
+let lastListItem = null;
 
-// document.addEventListener('keydown', function(event) {
-//     const activeElement = document.activeElement;
-//     // https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code
-//     const sectionAnnotatie = document.querySelector('div section');
+document.addEventListener('keydown', function(event) {
+    const activeElement = document.activeElement;
+    // https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code
+    const sectionAnnotatie = document.querySelector('div section');
+    const ol = document.querySelector('ol');
 
-//     if (activeElement || activeElement.tagName !== 'LI' ){
-//         // open dan de link
-//         lastListItem = activeElement;
-//     }
+    // if (activeElement && activeElement.tagName !== 'LI' ){
+    //     // open dan de link
+    //     lastListItem = activeElement;
+    // }
 
-//     if(event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
-//         // zprgt voor geen scroll
-//         event.preventDefault()
-//     }
+    if(event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+        // zprgt voor geen scroll
+        event.preventDefault()
+    }
 
-//     if(event.key === 'ArrowRight'){
+    if(event.key === 'ArrowRight'){
 
-//         if(activeElement.tagName === 'LI') {
-//             sectionAnnotatie.focus()
-//         }
-//     }
+        if(ol.contains(activeElement)) {
+            lastListItem = activeElement;
+            sectionAnnotatie.focus()
+        }
+    }
 
-// // terug
-//     if(event.key === 'ArrowLeft'){
-//         if (activeElement.tagName === 'SECTION' && lastListItem) {
-//             lastListItem.focus()
-//         }
-//     }
-// });
+// terug
+    if(event.key === 'ArrowLeft'){
+        if (activeElement === sectionAnnotatie && lastListItem) {
+            lastListItem.focus()
+        }
+    }
+});
+
+
