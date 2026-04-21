@@ -26,7 +26,7 @@ body {
     }
 
     p {
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
 }
 
@@ -47,8 +47,8 @@ main {
             display: grid;
             
             justify-content: center;
-            grid-template-columns: 50% 40%;
-            gap: 10%;
+            grid-template-columns: 55% 40%;
+            gap: 5%;
             margin-top: 3rem;
 
 

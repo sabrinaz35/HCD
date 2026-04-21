@@ -163,6 +163,10 @@ function annotateText(bgColor){
                     lastContentSpan.classList.remove("annotatie-teken");
             
                 }
+
+                // https://www.youtube.com/watch?v=l03jYu3skQk 
+                var audio = new Audio('/images/sounds/error-sound-trimmed.mp4')
+                audio.play()
             }
         })
     })
@@ -235,7 +239,7 @@ function focusWithAnnotation (){
             }
         })
 
-        if (!matchAnnotatie) {
+        if (!matchAnnotatie) {          
             return;
         };
 
@@ -260,10 +264,6 @@ function focusWithAnnotation (){
     })
 }
     
-
-
-
-
 
 
 
@@ -332,11 +332,6 @@ document.addEventListener('keydown', function(event) {
     const sectionAnnotatie = document.querySelector('div section');
     const ol = document.querySelector('ol');
 
-    // if (activeElement && activeElement.tagName !== 'LI' ){
-    //     // open dan de link
-    //     lastListItem = activeElement;
-    // }
-
     if(event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
         // zprgt voor geen scroll
         event.preventDefault()
@@ -352,7 +347,7 @@ document.addEventListener('keydown', function(event) {
 
 // terug
     if(event.key === 'ArrowLeft'){
-        if (activeElement === sectionAnnotatie && lastListItem) {
+        if (sectionAnnotatie.contains(activeElement) && lastListItem) {
             lastListItem.focus()
         }
     }

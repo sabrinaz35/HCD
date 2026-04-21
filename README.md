@@ -794,6 +794,9 @@ Voor test 1:
 Geluidje pling
 - https://pixabay.com/nl/sound-effects/search/correct/ 
 
+Delete sound:
+- https://www.youtube.com/watch?v=l03jYu3skQk 
+
 
 ### Javascript
 #### Function geselecteerde tekst
