@@ -700,12 +700,16 @@ Dit heb ik nu al gedaan:
 
 Ik wil nog even testen of de dikgedrukte letters en manier van aangeven dat welke annotatie waarbij hoort, of dat goef genoeg is.
 
+Ik heb deze dingen allemaal aangepast, omdat hij er constant eigenlijk tegenaan liep en het ook een struggle was om de focus te zien bij de invoerveld, dus ik heb het invoerveld als focus neergezet en alleen die neergezet. Zodat er verder geen afleiding is op het scherm.
 
 
 #### Testplan
 ##### Voorbereidende vragen voor Roger 
 - wat verwacht u dat het opslaan van de annotaties gaat werken?
 - Wat vind u van de persoonlijke teksten?
+- wat vindt u van de een geluid ter bevestiging van het opslaan?
+- hoe vindt u dat de focus nu alleen ligt op het invoeren van de annotatie?
+
 
 ### Weekly geek voorbereiden
 n.v.t.
@@ -739,11 +743,27 @@ Ook heb ben ik een idee van Jeppe die mij feedback heeft gegeven toegepast.
 - nog nonsense toevoegen.
 
 
-### Iteratie 4: Na eerste gesprek
-
 
 ## Week 4: Dinsdag 21 april
 ### Proces
+Ik had wat feedback en hulp gevraagd aan Leonie gister, ik wil namelijk dat er een soort bevestiging komt waarbij Roger kan horen dat het op de juiste manier is opgeslagen en daarbij hebben we het even over een popover gehad, dit heb ik nu toegevoegd.
+
+![](images/readme-images/21-4-popover-gemaakt.png)
+
+Dit werkt ook nog steeds zoals ik het had, alleen moet ik nog even met een screenreader testen hoe dit werkt.
+
+Dit geeft voor de screenreader op dit moment ook geen verschil.
+
+Ook wil ik vandaag aandacht besteden aan de add-nonsense en ik zat in eerste instantie te denken aan een stuk tekst die dan voorgelezen wordt zoals "Roger, deze annotatie is correct opgeslagen" Alleen ik zat ook nog met het idee in mijn hoofd om een soort geluidje te doen, dit maakt het misschien wat persoonlijker en fijner alleen ik weet gewoon niet of dit iets goeds is voor Roger, en daarom is het goed om dit toch te gaan testen. 
+
+Ook wil ik voor de add-nonsense kijken of ik het nog persoonlijker kan maken, ik heb al een belgische stem ingesteld om op die manier zijn naam goed uit te laten spreken, maar misschien kan ik het nog persoonlijker maken.
+
+Ik heb de sound toegevoegd ik ben benieuwd wat hij hiervan vindt.
+![](images/readme-images/21-4-sound-bevestiging.png)
+
+Ik heb gemerkt namelijk tijdens de tests dat hij vrij snel afgeleidt raakt door de teksten en als ik de bevestiging ook in tekst doe dat het dan te veel is, dus daarom wil ik testen of dit werkt?
+
+
 
 #### Testplan
 ##### Voorbereidende vragen voor Roger 
@@ -769,6 +789,10 @@ Voor test 1:
 -  Als placeholder een stuk uit artikel: https://nos.nl/artikel/2603972-australische-moeder-en-dochter-ontdekken-koraalkolonie-een-weiland-van-koraal
 
 - https://www.filosofie.nl/filosofen/plato/
+
+
+Geluidje pling
+- https://pixabay.com/nl/sound-effects/search/correct/ 
 
 
 ### Javascript

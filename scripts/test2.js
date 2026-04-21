@@ -30,12 +30,16 @@ tekst.forEach(function(p){
         addSpan.textContent = sentence.trim() + ' '; //Voegt een extra spatie toe
         addSpan.tabIndex = 0; //Voor de focus state 
 
+        addSpan.setAttribute('popovertarget', 'my-popover');
+
         p.appendChild(addSpan);
     })
     } 
-
-
 })
+
+
+
+
 
 let selectedContentSpan = "";
 let lastContentSpan = null;
@@ -104,8 +108,11 @@ document.addEventListener('keydown', function(event){
     }
 })
 
+
+
+
 // MARK: Toevoegen annotatie
-function annotateText(){
+function annotateText(bgColor){
 
     const section = document.querySelector('section')
     // let titleAnnotation = inputAnnotatieValueTitle.value
@@ -123,6 +130,18 @@ function annotateText(){
         </article>`
 
         section.insertAdjacentHTML('beforeend', annotationHTML);
+
+
+    // achtergrondkleur van het element checken en meegeven aan een ander element
+        const nieuweAnnotatie = document.querySelector('.newAnnotatie:last-child');
+
+
+            if(bgColor === "rgba(255, 253, 114, 0.8)"){
+                nieuweAnnotatie.style.backgroundColor = "rgba(255, 253, 114, 0.8)"
+            } else if (bgColor === "rgba(113, 231, 244, 0.8)"){
+                nieuweAnnotatie.style.backgroundColor = "rgba(113, 231, 244, 0.8)"
+            }
+        
 
     } else {
         console.log('fout bij invullen')
@@ -150,30 +169,66 @@ function annotateText(){
 }
 
 
-//MARK: Link aan de annotatie/oplichten ervan
+
+
+
+// MARK: Save features
+const saveAnnotationButton = document.querySelector('form button')
+const opslaanBevestiging = document.querySelector('#opslaanBevestiging')
+
+saveAnnotationButton.addEventListener('click', function () {
+    const bgColor = window.getComputedStyle(lastContentSpan).backgroundColor;
+
+    // Annotatie meegeven
+    const inputAnnotation = inputField.value;
+    annotateText(bgColor);
+
+    // Input field leegmaken voor een nieuwe
+    inputField.value = '';
+    form.classList.remove('form-seen');
+
+    // Focus op de span die geselecteerd was
+    lastContentSpan.focus();
+
+    // https://pixabay.com/nl/sound-effects/search/correct/ 
+    var audio = new Audio('/images/sounds/correct-sound.mp3')
+    audio.play()
+
+
+});
+
+focusWithAnnotation();
+
+
+
+
+
+
+//MARK: Focus annotatie
 // HUlp van claudeai 
 // Prompt: ik wil hier een function schrijven waarbij ik kijk of er twee elementen overeen komen, en dan wil ik er een class aangeven en met css wil ik er dan een lijn tussen maken of dat het een andere kleur krijgt
 // https://claude.ai/share/d6b86135-9caf-4360-af64-be8eeecfed38
 
 function focusWithAnnotation (){
+    // Haal de lijst op
     const spanWithAnnotation = document.querySelector('ol');
 
-    console.log('container:', spanWithAnnotation)
-
+    // Kijken welke er in focus is
     spanWithAnnotation.addEventListener('focusin', function (event) {
         const span = event.target
 
+        // Kijken of de span de class heeft
         if(!span.classList.contains('annotatie-teken')) {
             return;
         }
 
-
+        // Te tekst trimmen zodat beide beter gematcht kunnen worden.
         const spanText = span.textContent.trim();
         const allAnnotations = document.querySelectorAll('.newAnnotatie');
 
         let matchAnnotatie = null;
 
-        // Eerst de match
+        // Eerst de match maken
         allAnnotations.forEach(article => {
             if (article.dataset.annotatie.trim() === spanText.trim()){
                 matchAnnotatie = article;
@@ -184,44 +239,42 @@ function focusWithAnnotation (){
             return;
         };
 
+        // Voeg een class toe als het een match is
         span.classList.add('focusedAnnotatie')
         matchAnnotatie.classList.add('focusedAnnotatie')
 
+        // Overschrijven van de matching color eerder in dit document
+        // const bgColor = window.getComputedStyle(span).backgroundColor;
+        // if (bgColor && bgColor !== "rgba(0, 0, 0, 0)" && bgColor !== "transparent") {
+        //     span.style.backgroundColor = bgColor;
+        //     matchAnnotatie.style.backgroundColor = bgColor;
+        // }
+
     })
 
-        spanWithAnnotation.addEventListener('focusout', function(){
-            document.querySelectorAll('.focusedAnnotatie').forEach(element => {
-                element.classList.remove('focusedAnnotatie')
-            })
+    // Haal de styling weer weg door class weg te halen
+    spanWithAnnotation.addEventListener('focusout', function(){
+        document.querySelectorAll('.focusedAnnotatie').forEach(element => {
+            element.classList.remove('focusedAnnotatie')
         })
+    })
 }
     
 
 
-// MARK: Save features
-const saveAnnotationButton = document.querySelector('form button')
-const opslaanBevestiging = document.querySelector('#opslaanBevestiging')
 
-saveAnnotationButton.addEventListener('click', function () {
-    const inputAnnotation = inputField.value;
-    annotateText()
 
-    inputField.value = '';
-    form.classList.remove('form-seen');
 
-    lastContentSpan.focus();
 
-    
 
-});
 
-focusWithAnnotation();
+
+
 
 // MARK: tabben en extra hierarchie tussen de elementen
 // Alle articles selecteren en in een array stoppen 
 const articles = Array.from(document.querySelectorAll('li'));
 var currentArticleNumber = 0;
-
 
 // Bron: Chatgpt
 // Voor optimaliseren van de function want hij werkte niet 
