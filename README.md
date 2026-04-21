@@ -765,19 +765,108 @@ Ik heb gemerkt namelijk tijdens de tests dat hij vrij snel afgeleidt raakt door 
 
 
 
-#### Testplan
-##### Voorbereidende vragen voor Roger 
+#### laatste test
+https://www.rogerravelli.com/
 
-#### Iteratie
-##### Wat ik meeneem uit de test:
+**Test van mij**
+Test Sabrina
+- begint met tab te navigeren
+- was even aan het zoeken maar kwam er relatief snel uit hoe hij met tab in de alinea komt
+- pijltjes blijven een beetje onduidelijk
+- hij vind annotatieformulier mooi en fijn dat het voorgelezen wordt
+- hij probeert daarin te navigeren met pijltjes
+- maakt annotatie en na kleine error slaat hij op
+- overzicht met hoofdstukken zitten we even vast
+- terug bij de tekst > pijltjes om tussen alineas te wisselen en tab voor de zinnen begrijpt hij
+- maakt opnieuw annotatie, onthoud dat het enter was
+- probeert te typen terwijl focus op de zin staat gaat goed, klikt daarna meteen op enter waardoor hij weer in form zit en snapt even niet of het opgeslagen is hij zegt dat het begint te werken, simpel (eenvoudig), begint het te begrijpen
+- geluidje als bevestiging dat het opgeslagen is kan fijn zijn, maar zijn eerste associatie is dat ie iets fout doet dus is even wennen
+- alles wat geluid maakt is een aanvulling (zolang het niet te veel is)
+- zin met annotatie blijft blauw, wit bij focus: helemaal goed, heel slim
+- hij komt terug op de hoofdstukken en wil dat even zien > komt na gedoe bij de button > overzicht met hoofdstukken is goed en handig
 
-### Weekly geek bespreken
+**Test van ocean**
+- Zit bij de annotaties en wilt meteen wat typen.
+- Heeft wat moeite met het volgen van de buttons
+- mooi filter opties
+- contrast is niet zo aantrekkelijk, cursief haak ik al af
+
+**Test van Kelly**
+- hij wilde iets anders inklikken, maar hoorde tab
+- om binnen de alinea te gaan klikt hij op tab en komt dan weer terug bij de shortcuts
+- hij luisterde naar het stukje tekst en volgde de instructies
+- hij heeft moeite om alt r te onthouden, maar gaat opzich goed met het uitschijven
+- alles is tab, maar kan nu niet goed zien waar je bent. 
+- spraak ging best goed volgend hem
+- goed geslaagd, complimenten, spreekt wat lullig uit. 
+
+**Test van Teun**
+- tabt door de tekst heen
+- vroeg of annotatie maken een tab was
+- tabt naar save en slaat op 
+- gaat door naar het volgende stukje tekst
+- Goed te zien, en te lezen, kan hij makkelijker tot zich nemen
+- niet te groot, dit kan hij wel zien
+- fijn qua kleuren
+- het niet scrollen vraagt hij waar hij is 
+- heel mooi en goed 
+
+**Test van Melvin**
+- focus van de tekst mag meer, hij kan het niet zien
+- sound effectjes wel leuk, maar niet te veel en als het maar consequent is.
+
+**Test van Nouafal**
+- Hij snapte de functionaliteit niet van k, omdat hij al terug sprong naar het leesstuk. 
+
+**Test van Jeppe**
+- Hij hoort eerst tab dus klikt op tab
+- doet gewoon een f intoetsen
+- Hij opent meteen de eerste annotatie en klikt j en f in
+- allemaal ballonnetjes 
+- hij gaat verder en maakt een annotatie jaja
+- Maar hij gaat toch automatisch naar de annotaties vraagt hij
+- Hij grinnikt bij roger voor president 
+- Hij moet lachen om de confettie die vervolgens na de derde annotatie komt
+- leuke elementen heb je erin bedacht. Doe je goed die elementen toevoegen
+- duidelijk, prima
+
+**Test van Joshua**
+- het is heel klein, hij zou het wel een beetje willen kunnen lezen.
+
+**Test van Jelle**
+- het is fijn, hij heeft het gevolgd, lekkere stem.
+- geavannceerd stem en mooie stem, sander
+
+#### foto's van wat ik heb getest
+Mijn iteratie uit de derde test heb ik verwerkt in een volgende test en dat zag er als volgt uit: 
+![](images/readme-images/21-4-foto1-test4.png)
+![](images/readme-images/21-4-foto2-test4.png)
+![](images/readme-images/21-4-foto3-test4.png)
+![](images/readme-images/21-4-foto4-test4.png)
+
+#### feedback/uit de test
+Overall was hij wel blij met de flow, hij zei dat het makkelijk te volgen was en overzichtelijk. Ook de beginpagina vond hij goed en prettig dat de focus ligt op het annotatie veld en dat de zinnen voorgelezen worden. Hij raakte wat in de war door de arrow up en down. Mijn add nonsense kan handig zijn voor hem, maar hij moet het vooraf wel weten. Maar in eerste instantie was het een associatie met dat het fout gaat. 
+
+Ook was hij niet meteen de weg kwijt, bij het invullen van het formulier wat ik had toegevoegd, dus dat is een hele vooruitgang. 
 
 ### Checkout
 #### Wat heb ik gedaan?
+Ik heb vandaag geluiden toegevoegd en de letters wat groter gemaakt en van de form een popup gemaakt, maar dat maakte niet veel verschil.
+
 #### Hoelang heeft dat geduurd?
+- 09:30 - 12:00 gewertkt aan van alles en nog wat
+- 12:00 - 13:00 pauze
+- 13:00 - 14:00 nog verder gewerkt
+- 14:00 - 16:00 laatste test met Roger
+
+
 #### Wat heb ik geleerd?
+Ik heb geleerd dat ik mijn javascript moet voorzien van comments, anders raak ik de weg kwijt.
+
+Ook heb ik weer veel geleerd uit de test. Veel positieve dingen, maar ook nog een aantal punten waar ik aan moet werken. 
+
 #### Wat ga je morgen doen?
+Laatste feedback puntjes nog verwerken
 
 
 ### Iteratie 4: Na eerste gesprek
