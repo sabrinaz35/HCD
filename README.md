@@ -869,7 +869,9 @@ Ook heb ik weer veel geleerd uit de test. Veel positieve dingen, maar ook nog ee
 Laatste feedback puntjes nog verwerken en eindreflectie schrijven
 
 ## weekly reflectie/feedback ronde
-
+- Met een screenreader de laatste aanpassingen maken.
+- Nog de laatste puntjes op de i zetten.
+- eindreflectie schrijven
 
 ## Eindreflectie
 ### Final product
