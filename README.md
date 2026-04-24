@@ -866,10 +866,48 @@ Ik heb geleerd dat ik mijn javascript moet voorzien van comments, anders raak ik
 Ook heb ik weer veel geleerd uit de test. Veel positieve dingen, maar ook nog een aantal punten waar ik aan moet werken. 
 
 #### Wat ga je morgen doen?
-Laatste feedback puntjes nog verwerken
+Laatste feedback puntjes nog verwerken en eindreflectie schrijven
+
+## weekly reflectie/feedback ronde
 
 
-### Iteratie 4: Na eerste gesprek
+## Eindreflectie
+### Final product
+Uiteindelijk heb ik voor Roger een bijpassende functionaliteit gemaakt waarmee hij annotaties kan maken bij stukken tekst en deze iets makkelijker kan terug vinden. Daarbij heb ik gekeken naar de screenreader en heb ik een soort uitleg tussendoor gegeven met de opties en de toetsenbord mogelijkheden. Hij kan de annotaties makkelijker terugvinden doordat als hij door de tekst heen tabt dat het een beetje oplicht en de annotatie die daarbij hoort ook.
+
+### Terugblik op proces
+Als ik terug kijk op dit vak ben ik harstikke blij met wat ik bereikt heb, sommige test gingen wat makkelijker dan de andere tests. Ze zeggen ook wel dat een slechte test een goede test is, maar op een een en andere manier vond ik die slechte test wel vervelend, omdat ik in die zin de behoefte niet goed had begrepen, maar aan de andere kant heb ik wel heel veel uit die test gehaald. Dit ging om test 3. 
+
+Roger was wel prettig om mee te werken en hij doet ook echt zijn best om jouw project te snappen, wat ik af en toe wel heel verwarrend vond was dat hij een beetje switchte van mening, daar bedoel ik mee dat hij de ene keer iets voor op zijn mobiel wilde en de andere keer iets op de laptop, want dit is iets wat handig kan zijn voor zijn studie. Maar daar heb ik mee om leren gaan en ben ik gegaan voor de laptop.
+
+Uiteindelijk heb ik vier verschillende iteraties gemaakt met wat ik zelf vind een duidelijke groei erin, aan het einde had ik toch iets anders gedaan met het form veld omdat het eigenlijk tot twee keer aan toe niet lekker verliep. 
+
+#### Als ik meer tijd had
+Als ik meer tijd had voor dit project had ik nog wat meer gewerkt aan de functionaliteiten binnen de annotaties zelf, zodat hij daarbinnen misschien kan opzoeken of dergelijke. Ook zou het nog een handige feature zijn geweest dat als hij eenmaal de toetsen doorheeft dat hij een mogelijkheid heeft om dan die uitlegjes die ik tussendoor had geschreven om dat uit te zetten, ik kan mij namelijk heel goed voorstellen dat het als je het al weet vervelend kan zijn.
+
+### Design principles
+Ook heb ik mij gedurende dit project bezig gehouden met de design principles.
+
+*Study situation*
+Voorafgaand toen wij de opdracht kregen hadden we de opdracht, maar wist ik eigenlijk niet in hoeverre Roger kon zien, waar zijn behoeftes lagen, wat hij leuk vindt en hoe hij zijn screenreader gebruikt etc. Daarom heb ik bij de eerste test vragen gesteld en naar het verhaal van Roger geluisterd erachter te komen wat de situatie is waarvoor ik iets ga ontwerpen. 
+
+*Ignore conventions*
+- de standaarden van de screenreader genegeerd
+- eigen aria labels gemaakt, gepersonaliseerd op dat van roger
+<!-- Tijdens het bestuderen van de situatie kwam ik erachter dat Roger niet veel snelcodes/ nog niet helemaal thuis is met wat de screenreader allemaal kan. Dus die functionaliteiten laat ik links liggen en ik ben zelf shortcuts gaan bedenken/toevoegen die voor hem logischer zijn om te gebruiken en om zo iets te maken wat ook echt bij hem past. Daar wil ik vandaag op testen. -->
+
+*Prioritise identity*
+- mijn identiteit 
+- roger's identiteit
+<!-- Roger ziet nog wel een beetje en daarom heb ik bij de tweede test gevraagd naar de kleuren, of het de juiste kleuren waren en of er iets anders moet, zodat zijn identiteit terug komt door middel van zijn voorkeuren. -->
+
+*Add nonsense*
+- Geluidje
+- oplichten van de tekst en de annotatie voor eventuele duidelijkheid
+<!-- Wat nou als dit dat doet? Vragen stellen als het niet lukt om het te maken. -->
+<!-- Zou het voor hem werken om de kleur van de annotatie aan te kunnen passen? Naar mijn idee lijkt dit niet echt een goed idee, omdat er dan misschien te veel voor hem gebeurd?
+- Ik kan dit aan hem voorstellen en als hij er wel enthousiast over is dan ook uitvoeren. -->
+
 
 
 ## Bronnen
