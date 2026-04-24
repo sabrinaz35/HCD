@@ -892,21 +892,25 @@ Ook heb ik mij gedurende dit project bezig gehouden met de design principles.
 Voorafgaand toen wij de opdracht kregen hadden we de opdracht, maar wist ik eigenlijk niet in hoeverre Roger kon zien, waar zijn behoeftes lagen, wat hij leuk vindt en hoe hij zijn screenreader gebruikt etc. Daarom heb ik bij de eerste test vragen gesteld en naar het verhaal van Roger geluisterd erachter te komen wat de situatie is waarvoor ik iets ga ontwerpen. 
 
 *Ignore conventions*
-- de standaarden van de screenreader genegeerd
-- eigen aria labels gemaakt, gepersonaliseerd op dat van roger
-<!-- Tijdens het bestuderen van de situatie kwam ik erachter dat Roger niet veel snelcodes/ nog niet helemaal thuis is met wat de screenreader allemaal kan. Dus die functionaliteiten laat ik links liggen en ik ben zelf shortcuts gaan bedenken/toevoegen die voor hem logischer zijn om te gebruiken en om zo iets te maken wat ook echt bij hem past. Daar wil ik vandaag op testen. -->
+Ik kwam erachter dat er best wel veel standaarden beschikbaar zijn met de screenreader, alleen ik merkte al gauw dat de dubbele toets combinaties voor Roger niet lekker werkte en lastig waren om te onthouden. Bovendien waren sommige teksten die de screenreader voorlas ook vaag en niet helemaal duidelijk, dit was een van de bevindingen die ik had bij de tweede test. 
+Dus die standaarden heb ik links laten liggen om een zo goed mogelijk passende prototype voor Roger te maken. 
+
+In de aria-labels heb ik zinnen gezet om bijvoorbeeld aan te geven hoe hij moet navigeren tussen bepaalde elementen, zoals het benoemen van escape als hij weg wilt uit de form en nog een aantal van dat soort teksten.
 
 *Prioritise identity*
-- mijn identiteit 
-- roger's identiteit
-<!-- Roger ziet nog wel een beetje en daarom heb ik bij de tweede test gevraagd naar de kleuren, of het de juiste kleuren waren en of er iets anders moet, zodat zijn identiteit terug komt door middel van zijn voorkeuren. -->
+Vanuit de eerste test heb ik gevraagd welke kleuren hij fijn vindt om zo een beetje zijn identiteit erin te krijgen. Ook heb ik geobserveerd bij klasgenoten wat zij hadden en waar de behoeftes van Roger liggen om zijn identiteit terug te laten komen en dat kan je nu terug zien in het kleurgebruik. Tijdens de tweede test had ik iets met de kleur blauw gedaan en daaruit bleek dat hij dat ook wel fijn vond. Ook staat mijn screenreader op een belgische stem, waardoor hij zijn naam ook op de juiste manier uitspreekt.
+
+Mijn identiteit zie je weer terug op de manier waarop ik dit heb aangepakt en de manier waarop ik het gedesigned heb. Ik heb mijn visie op het annoteren van een stuk tekst met een markeerstift terug laten komen in het design. En heb de feedback en bevindingen die ik op had gedaan tijdens de test die voor mij het meest relevant waren verwerkt in mijn prototype.
+
+Uiteindelijk nu ik hierop terugkijk is het eigenlijk wel lastig om je eigen identiteit uit je project te halen, omdat je gewend bent met de manier waarop jij werkt. Maar het zijn natuurlijk ook de dingen die je opvallen en zelf meeneemt uit de tests en hoe je deze interpreteerd. 
 
 *Add nonsense*
-- Geluidje
-- oplichten van de tekst en de annotatie voor eventuele duidelijkheid
-<!-- Wat nou als dit dat doet? Vragen stellen als het niet lukt om het te maken. -->
-<!-- Zou het voor hem werken om de kleur van de annotatie aan te kunnen passen? Naar mijn idee lijkt dit niet echt een goed idee, omdat er dan misschien te veel voor hem gebeurd?
-- Ik kan dit aan hem voorstellen en als hij er wel enthousiast over is dan ook uitvoeren. -->
+Dit vond ik heel lastig, omdat ik niet echt iets geks kon bedenken omdat het een best wel straight forward opdracht was en de testresultaten ook best snel en gemakkelijk waren. Waardoor ik al gauw in die tunnelvisie zat met mijn idee. Daarnaast vond ik het ook lastig om iets te bedenken voor iemand die slechtziend is, want je kan niet te veel afleidingen op het scherm zetten want dit leidt te veel af met waar de focus ligt.
+
+Dus heb ik het uiteindelijk door middel van geluid en de oplichtende tekst gedaan. Dat geluidje was een gok, want ik vond het zelf wel een hele leuke toevoeging. Maar hij gaf wel aan dat hij het vooraf moet weten anders is het voor hem alsof hij wat fout heeft gedaan en daar zit ook wel wat in. Maar hij vond dat geluidje wel een goeie toevoeging.
+
+Daarnaast heb ik die hightlight toegevoegd, ik wist niet of het te veel zou worden en aangezien hij lichtgevoelig is of de witte kleur wel goed was, want ik had het gekozen omdat het veel contrast heeft met alle andere elementen. Maar dit werkte best wel goed en vond hij een hele goeie toevoeging.
+
 
 
 
