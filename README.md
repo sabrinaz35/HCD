@@ -873,6 +873,12 @@ Laatste feedback puntjes nog verwerken en eindreflectie schrijven
 - Nog de laatste puntjes op de i zetten.
 - eindreflectie schrijven
 
+## Week 5: Woensdag6 mei
+### Proces
+Omdat Roger aangaf dat hij vooraf graag wilt weten als er extra geluidje te horen is, heb ik dat toegevoegd aan het begin en uitgelegd dat dat komt als teken dat het gelukt is.
+
+Ook merkte ik dat hij af en toe de arrow up en down key gebruikte alleen dan verplaatste het hele scherm ivm. de standaard functionaliteiten, dus ik heb dit uit gezet, of naja overschreven, zodat hij dat niet doet en geen verwarring bij Roger veroorzaakt.
+
 ## Eindreflectie
 ### Final product
 Uiteindelijk heb ik voor Roger een bijpassende functionaliteit gemaakt waarmee hij annotaties kan maken bij stukken tekst en deze iets makkelijker kan terug vinden. Daarbij heb ik gekeken naar de screenreader en heb ik een soort uitleg tussendoor gegeven met de opties en de toetsenbord mogelijkheden. Hij kan de annotaties makkelijker terugvinden doordat als hij door de tekst heen tabt dat het een beetje oplicht en de annotatie die daarbij hoort ook.

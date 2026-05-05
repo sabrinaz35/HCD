@@ -326,16 +326,19 @@ document.addEventListener('keydown', function(event) {
 
 let lastListItem = null;
 
+
+window.addEventListener('keydown', function (event){
+    if(event.key === 'ArrowUp' || event.key === 'ArrowDown') {
+        // zorgt voor geen scroll in gehele pagina met die keys
+        event.preventDefault()
+    }
+})
+
 document.addEventListener('keydown', function(event) {
     const activeElement = document.activeElement;
     // https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code
     const sectionAnnotatie = document.querySelector('div section');
     const ol = document.querySelector('ol');
-
-    if(event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
-        // zprgt voor geen scroll
-        event.preventDefault()
-    }
 
     if(event.key === 'ArrowRight'){
 
