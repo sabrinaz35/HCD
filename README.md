@@ -981,3 +981,5 @@ Het opsplitsen van zinnen met span:
  Check wat is geselecteerd met de tag van een span die eraan gegeven is:
  - https://developer.mozilla.org/en-US/docs/Web/API/Element/tagName 
 
+ - https://www.filosofie.nl/filosofen/aristoteles/ 
+
