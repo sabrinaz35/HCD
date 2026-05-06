@@ -891,7 +891,9 @@ Roger was wel prettig om mee te werken en hij doet ook echt zijn best om jouw pr
 Uiteindelijk heb ik vier verschillende iteraties gemaakt met wat ik zelf vind een duidelijke groei erin, aan het einde had ik toch iets anders gedaan met het form veld omdat het eigenlijk tot twee keer aan toe niet lekker verliep. 
 
 #### Als ik meer tijd had
-Als ik meer tijd had voor dit project had ik nog wat meer gewerkt aan de functionaliteiten binnen de annotaties zelf, zodat hij daarbinnen misschien kan opzoeken of dergelijke. Ook zou het nog een handige feature zijn geweest dat als hij eenmaal de toetsen doorheeft dat hij een mogelijkheid heeft om dan die uitlegjes die ik tussendoor had geschreven om dat uit te zetten, ik kan mij namelijk heel goed voorstellen dat het als je het al weet vervelend kan zijn.
+Als ik meer tijd had voor dit project had ik nog wat meer gewerkt aan de functionaliteiten binnen de annotaties zelf, zodat hij daarbinnen misschien kan opzoeken of dergelijke. Ook zou het nog een handige feature zijn geweest dat als hij eenmaal de toetsen doorheeft dat hij een mogelijkheid heeft om dan die uitlegjes die ik tussendoor had geschreven om dat uit te zetten, ik kan mij namelijk heel goed voorstellen dat het als je het al weet vervelend kan zijn. 
+
+Daarnaast had ik ook nog een optie kunnen maken om de annotatie te kunnen bewerken, maar daar had ik geen tijd meer voor.
 
 ### Design principles
 Ook heb ik mij gedurende dit project bezig gehouden met de design principles.
@@ -918,9 +920,6 @@ Dit vond ik heel lastig, omdat ik niet echt iets geks kon bedenken omdat het een
 Dus heb ik het uiteindelijk door middel van geluid en de oplichtende tekst gedaan. Dat geluidje was een gok, want ik vond het zelf wel een hele leuke toevoeging. Maar hij gaf wel aan dat hij het vooraf moet weten anders is het voor hem alsof hij wat fout heeft gedaan en daar zit ook wel wat in. Maar hij vond dat geluidje wel een goeie toevoeging.
 
 Daarnaast heb ik die hightlight toegevoegd, ik wist niet of het te veel zou worden en aangezien hij lichtgevoelig is of de witte kleur wel goed was, want ik had het gekozen omdat het veel contrast heeft met alle andere elementen. Maar dit werkte best wel goed en vond hij een hele goeie toevoeging.
-
-
-
 
 ## Bronnen
 ### content
